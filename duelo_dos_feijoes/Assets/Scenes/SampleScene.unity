@@ -655,7 +655,10 @@ MonoBehaviour:
   cooldown: 0
   aconteceu: 0
   tempoParaRecarga: 5
-  tiro: {fileID: 0}
+  tiro: {fileID: 125182664}
+  clone: {fileID: 0}
+  velocidade: 10
+  movimento_y: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

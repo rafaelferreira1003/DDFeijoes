@@ -12,6 +12,9 @@ public class atirar : MonoBehaviour
     public bool aconteceu = false;
     public float tempoParaRecarga = 5.0f;
     public GameObject tiro;
+    public GameObject clone;
+    public float velocidade = 10.0f;
+    public float movimento_y = 4.0f;
 
     void Start()
     {
@@ -31,7 +34,7 @@ public class atirar : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && recarga && municao > 0.0f && cooldown <= 0.0f)
         {
             Debug.Log("Atirou");
-            Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
+            clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
             
             municao -= 1.0f;
             cooldown = 1.0f;
@@ -64,5 +67,9 @@ public class atirar : MonoBehaviour
             municao = 5.0f;
         }
 
+        if (clone != null)
+        {
+            clone.transform.Translate(new Vector3(0, movimento_y, 0) * velocidade * Time.deltaTime);
+        }
     }
 }
