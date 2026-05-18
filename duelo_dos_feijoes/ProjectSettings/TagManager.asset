@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - player2
+  - tiro
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class movimento_p2 : MonoBehaviour
     int rotacao = 30;
     int movimento_y = 0;
     int movimento_x = 0;
+    public int vidap2 = 7;
 
     // Update is called once per frame
     void Update()
