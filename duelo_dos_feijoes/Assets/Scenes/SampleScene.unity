@@ -828,7 +828,7 @@ GameObject:
   - component: {fileID: 1962253794}
   - component: {fileID: 1962253793}
   m_Layer: 0
-  m_Name: Hexagon Flat Top
+  m_Name: vida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

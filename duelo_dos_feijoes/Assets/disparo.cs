@@ -31,11 +31,17 @@ public class disparo : MonoBehaviour
             vida.GetComponent<vida>().player2life = vida.GetComponent<vida>().player2life - dano;
         }
 
-        if (collision.CompareTag("player"))
+        if (collision.CompareTag("Player"))
         {
             Destroy(GameObject.Find("tiro(Clone)"));
             Debug.Log("acertou");
             vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - dano;
+        }
+
+        if (collision.CompareTag("paredes"))
+        {
+            Destroy(GameObject.Find("tiro(Clone)"));
+            Debug.Log("bateu na parede");
         }
 
     }
