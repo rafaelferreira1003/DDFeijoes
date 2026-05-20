@@ -4,15 +4,16 @@ using UnityEngine;
 public class disparo : MonoBehaviour
 {
     public int player1life = 7;
-    public movimento_p2 movimentoP2;
     public int dano = 1;
+    public GameObject vida;
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-  
+        vida = GameObject.Find("vida");
+
     }
 
     // Update is called once per frame
@@ -23,12 +24,19 @@ public class disparo : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("player1"))
+        if (collision.CompareTag("player2"))
         {
-            movimentoP2.vidap2 -= dano;
             Destroy(GameObject.Find("tiro(Clone)"));
             Debug.Log("acertou");
+            vida.GetComponent<vida>().player2life = vida.GetComponent<vida>().player2life - dano;
         }
-     
+
+        if (collision.CompareTag("player"))
+        {
+            Destroy(GameObject.Find("tiro(Clone)"));
+            Debug.Log("acertou");
+            vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - dano;
+        }
+
     }
 }
