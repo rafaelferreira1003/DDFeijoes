@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class disparo : MonoBehaviour
 {
-    public int player1life = 7;
     public int dano = 1;
     public GameObject vida;
 
@@ -38,7 +37,7 @@ public class disparo : MonoBehaviour
             vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - dano;
         }
 
-        if (collision.CompareTag("paredes"))
+        if (collision.CompareTag("Parede"))
         {
             Destroy(GameObject.Find("tiro(Clone)"));
             Debug.Log("bateu na parede");

@@ -3,7 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class atirar : MonoBehaviour
+public class atirar2 : MonoBehaviour
 {
     public float tempo = 0.0f;
     public float municao = 5.0f;
@@ -15,7 +15,7 @@ public class atirar : MonoBehaviour
     public GameObject clone;
     public float velocidade = 10.0f;
     public float movimento_y = 4.0f;
-    public bool tiroP1 = false;
+    public bool tiroP2 = false;
 
     void Start()
     {
@@ -25,14 +25,14 @@ public class atirar : MonoBehaviour
 
     void Update()
     {
-      
+
         if (cooldown > 0.0f)
         {
             cooldown -= Time.deltaTime;
         }
 
         // Tiro
-        if (Input.GetKeyDown(KeyCode.Space) && recarga && municao > 0.0f && cooldown <= 0.0f)
+        if (Input.GetKeyDown(KeyCode.KeypadEnter) && recarga && municao > 0.0f && cooldown <= 0.0f)
         {
             Debug.Log("Atirou");
             clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
@@ -40,10 +40,10 @@ public class atirar : MonoBehaviour
 
             municao -= 1.0f;
             cooldown = 1.0f;
-           tiroP1 = true;
+            tiroP2 = true;
         }
 
-      
+
         if (municao <= 0.0f && !aconteceu)
         {
             recarga = false;
@@ -51,7 +51,7 @@ public class atirar : MonoBehaviour
             tempo = 0.0f;
         }
 
-    
+
         if (aconteceu)
         {
             tempo += Time.deltaTime;
@@ -64,7 +64,7 @@ public class atirar : MonoBehaviour
             }
         }
 
-      
+
         if (recarga && municao <= 0.0f)
         {
             municao = 5.0f;
