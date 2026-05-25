@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class disparo : MonoBehaviour
+public class disparop2 : MonoBehaviour
 {
     public int dano = 1;
     public GameObject vida;
@@ -23,12 +23,6 @@ public class disparo : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("player2"))
-        {
-            Destroy(GameObject.Find("tiro(Clone)"));
-            Debug.Log("acertou");
-            vida.GetComponent<vida>().player2life = vida.GetComponent<vida>().player2life - dano;
-        }
 
         if (collision.CompareTag("Player"))
         {

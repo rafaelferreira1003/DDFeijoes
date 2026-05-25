@@ -19,7 +19,7 @@ public class atirar : MonoBehaviour
 
     void Start()
     {
-        tiro = GameObject.Find("tiro");
+        tiro = GameObject.Find("tirop1");
     }
 
 

@@ -19,7 +19,7 @@ public class atirar2 : MonoBehaviour
 
     void Start()
     {
-        tiro = GameObject.Find("tiro");
+        tiro = GameObject.Find("tirop2");
     }
 
 
@@ -36,7 +36,7 @@ public class atirar2 : MonoBehaviour
         {
             Debug.Log("Atirou");
             clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
-            clone.tag = "tiro";
+            clone.tag = "tiro2";
 
             municao -= 1.0f;
             cooldown = 1.0f;

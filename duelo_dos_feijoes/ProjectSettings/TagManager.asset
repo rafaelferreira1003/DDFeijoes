@@ -7,6 +7,7 @@ TagManager:
   - player2
   - tiro
   - Parede
+  - tiro2
   layers:
   - Default
   - TransparentFX
