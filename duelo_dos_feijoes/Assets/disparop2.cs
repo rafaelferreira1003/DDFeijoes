@@ -33,7 +33,7 @@ public class disparop2 : MonoBehaviour
 
         if (collision.CompareTag("Parede"))
         {
-            Destroy(GameObject.Find("tiro(Clone)"));
+            Destroy(GameObject.Find("tirop2(Clone)"));
             Debug.Log("bateu na parede");
         }
 
