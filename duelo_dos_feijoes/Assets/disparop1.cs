@@ -28,12 +28,13 @@ public class disparop1 : MonoBehaviour
             Destroy(GameObject.Find("tiro(Clone)"));
             Debug.Log("acertou");
             vida.GetComponent<vida>().player2life = vida.GetComponent<vida>().player2life - dano;
+            Destroy(gameObject);
         }
 
 
         if (collision.CompareTag("Parede"))
         {
-            Destroy(GameObject.Find("tirop1(Clone)"));
+            Destroy(gameObject);
             Debug.Log("bateu na parede");
         }
 

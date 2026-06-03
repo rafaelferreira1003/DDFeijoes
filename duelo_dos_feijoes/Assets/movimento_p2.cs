@@ -2,43 +2,16 @@ using UnityEngine;
 
 public class movimento_p2 : MonoBehaviour
 {
-    int velocidade = 5;
-    int rotacao = 30;
-    int movimento_y = 0;
-    int movimento_x = 0;
-    public int vidap2 = 7;
+    public float velocidade = 5f;
+    public float rotacao = 20f;
+    public float movimento_y;
+    public float rotacao_x;
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            movimento_y = 1;
-        }
-        else if (Input.GetKey(KeyCode.DownArrow))
-        {
-            movimento_y = -1;
-        }
-        else
-        {
-            movimento_y = 0;
-        }
-
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            movimento_x = 1;
-        }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            movimento_x = -1;
-        }
-        else
-        {
-            movimento_x = 0;
-        }
-
-        transform.Translate(new Vector3(0, movimento_y, 0) * velocidade * Time.deltaTime);
-        transform.Rotate(new Vector3(0, 0, movimento_x) * rotacao * Time.deltaTime);
+        rotacao_x = (Input.GetAxisRaw("Horizontal2"));
+        movimento_y = (Input.GetAxisRaw("Vertical2"));
+        transform.Translate(0, movimento_y * velocidade * Time.deltaTime, 0);
+        transform.Rotate(0, 0, -rotacao_x * rotacao * Time.deltaTime);
     }
-
 }
