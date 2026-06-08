@@ -10,10 +10,10 @@ public class atirar2 : MonoBehaviour
     public bool recarga = true;
     public float cooldown = 1.0f;
     public bool aconteceu = false;
-    public float tempoParaRecarga = 5.0f;
+    public float tempoParaRecarga = 6.0f;
     public GameObject tiro;
     public GameObject clone;
-    public float velocidade = 10.0f;
+    public float velocidade = 6.0f;
     public float movimento_y = 4.0f;
     public bool tiroP2 = false;
 

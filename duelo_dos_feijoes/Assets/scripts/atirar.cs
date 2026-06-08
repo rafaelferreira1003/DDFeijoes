@@ -13,7 +13,7 @@ public class atirar : MonoBehaviour
     public float tempoParaRecarga = 5.0f;
     public GameObject tiro;
     public GameObject clone;
-    public float velocidade = 10.0f;
+    public float velocidade = 6.0f;
     public float movimento_y = 4.0f;
     public bool tiroP1 = false;
 
