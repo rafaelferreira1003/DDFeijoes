@@ -3,7 +3,7 @@ using UnityEngine;
 public class movimento_p1 : MonoBehaviour
 {
     public float velocidade = 5f;
-    public float rotacao = 20f;
+    public float rotacao = 45f;
     public float movimento_y;
     public float rotacao_x;
 
