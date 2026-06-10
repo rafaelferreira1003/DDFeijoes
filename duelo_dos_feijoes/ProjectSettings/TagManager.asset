@@ -42,6 +42,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: sky
+    uniqueID: 1632378287
+    locked: 0
+  - name: cactos
+    uniqueID: 3382426777
+    locked: 0
+  - name: sand
+    uniqueID: 3993304911
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
