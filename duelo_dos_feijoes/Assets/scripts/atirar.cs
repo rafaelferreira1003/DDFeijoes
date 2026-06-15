@@ -37,7 +37,7 @@ public class atirar : MonoBehaviour
             Debug.Log("Atirou");
             clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
             clone.tag = "tiro";
-
+            GetComponent<Animator>().SetBool("atirando", true);
             municao -= 1.0f;
             cooldown = 1.0f;
            tiroP1 = true;

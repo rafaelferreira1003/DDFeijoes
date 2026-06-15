@@ -4,6 +4,8 @@ public class vida : MonoBehaviour
 {
     public int player1life = 7;
     public int player2life = 7;
+    public bool player1morto = false;
+    public bool player2morto = false;
     public GameObject player1;
     public GameObject player2;
 
@@ -18,15 +20,24 @@ public class vida : MonoBehaviour
     {
         if (player1life <= 0)
         {
-            Debug.Log("Player 2 ganhou!");
-            Destroy(player1);
-            
+           player1morto = true;
         }
 
         if (player2life <= 0)
         {
-            Debug.Log("Player 1 ganhou!");
-            Destroy(player2);
+           player2morto = true;
         }
+
     }
-}
+
+    public void MORTOP1()
+    {
+        player1.SetActive(false);
+    }
+
+    public void MORTOP2()
+    {
+        player2.SetActive(false);
+    }
+ }
+
