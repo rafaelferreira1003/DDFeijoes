@@ -761,6 +761,8 @@ MonoBehaviour:
   rotacao: 65
   movimento_y: 0
   rotacao_x: 0
+  vida: {fileID: 897693382}
+  p2morto: 0
 --- !u!212 &608363442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -884,6 +886,8 @@ MonoBehaviour:
   velocidade: 10
   movimento_y: 4
   tiroP2: 0
+  p2morto: 0
+  vida: {fileID: 897693382}
 --- !u!95 &608363448
 Animator:
   serializedVersion: 7
@@ -3632,7 +3636,6 @@ GameObject:
   - component: {fileID: 1898235565}
   - component: {fileID: 1898235566}
   - component: {fileID: 1898235567}
-  - component: {fileID: 1898235568}
   m_Layer: 0
   m_Name: perso1
   m_TagString: Player
@@ -3656,6 +3659,8 @@ MonoBehaviour:
   rotacao: 65
   movimento_y: 0
   rotacao_x: 0
+  vida: {fileID: 897693382}
+  p1morto: 0
 --- !u!212 &1898235561
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3752,6 +3757,8 @@ MonoBehaviour:
   velocidade: 10
   movimento_y: 4
   tiroP1: 0
+  p1morto: 0
+  vida: {fileID: 897693382}
 --- !u!50 &1898235565
 Rigidbody2D:
   serializedVersion: 5
@@ -3847,19 +3854,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.3666482, y: 0.709321}
   m_EdgeRadius: 0
---- !u!114 &1898235568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898235559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b0d83753de5855449123779ba6fc5bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::mortop1
-  vida: {fileID: 897693382}
 --- !u!1 &2147035679
 GameObject:
   m_ObjectHideFlags: 0

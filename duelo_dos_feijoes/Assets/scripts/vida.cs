@@ -9,11 +9,6 @@ public class vida : MonoBehaviour
     public GameObject player1;
     public GameObject player2;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -30,14 +25,6 @@ public class vida : MonoBehaviour
 
     }
 
-    public void MORTOP1()
-    {
-        player1.SetActive(false);
-    }
-
-    public void MORTOP2()
-    {
-        player2.SetActive(false);
-    }
+   
  }
 
