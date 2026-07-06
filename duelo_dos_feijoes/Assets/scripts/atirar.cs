@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 public class atirar : MonoBehaviour
 {
     public float tempo = 0.0f;
-    public float municao = 5.0f;
+       float municao = 5.0f;
     public bool recarga = true;
     public float cooldown = 1.0f;
     public bool aconteceu = false;
@@ -18,6 +18,7 @@ public class atirar : MonoBehaviour
     public bool tiroP1 = false;
     public bool p1morto = false;
     public GameObject vida;
+    public GameObject player;
 
     void Start()
     {
@@ -41,7 +42,7 @@ public class atirar : MonoBehaviour
                 Debug.Log("Atirou");
                 clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
                 clone.tag = "tiro";
-                GetComponent<Animator>().SetBool("atirando", true);
+                player.GetComponent<Animator>().SetBool("atirando", true);
                 municao -= 1.0f;
                 cooldown = 1.0f;
                 tiroP1 = true;

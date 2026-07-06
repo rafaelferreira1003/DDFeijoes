@@ -16,7 +16,9 @@ public class destruirCaixa : MonoBehaviour
                 GetComponent<BoxCollider2D>().enabled = false;
             }
 
-            else {GetComponent<Animator>().SetBool("dano_caixa", true);}
+            else {
+                GetComponent<Animator>().SetBool("dano_caixa", true);
+            }
 
         }
     }
