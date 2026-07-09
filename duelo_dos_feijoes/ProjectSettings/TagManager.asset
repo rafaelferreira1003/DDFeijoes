@@ -51,6 +51,12 @@ TagManager:
   - name: sand
     uniqueID: 3993304911
     locked: 0
+  - name: background
+    uniqueID: 2687096987
+    locked: 0
+  - name: torcida
+    uniqueID: 2249088233
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
