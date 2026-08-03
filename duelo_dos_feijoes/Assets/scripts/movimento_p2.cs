@@ -9,6 +9,7 @@ public class movimento_p2 : MonoBehaviour
     public float rotacao_x;
     public GameObject vida;
     public bool p2morto = false;
+    public GameObject imagem;
   
     void Update()
     {
@@ -22,14 +23,14 @@ public class movimento_p2 : MonoBehaviour
             transform.Rotate(0, 0, -rotacao_x * rotacao * Time.deltaTime);
 
             if (movimento_y != 0 || rotacao_x != 0)
-            { GetComponent<Animator>().SetBool("andandop2", true); }
+            { imagem.GetComponent<Animator>().SetBool("andandop2", true); }
 
             else
-            { GetComponent<Animator>().SetBool("andandop2", false); }
+            { imagem.GetComponent<Animator>().SetBool("andandop2", false); }
 
         }
         else
-        { GetComponent<Animator>().SetBool("mortop2", true); }
+        { imagem.GetComponent<Animator>().SetBool("mortop2", true); }
         
         
     }
