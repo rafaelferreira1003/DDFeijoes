@@ -18,7 +18,7 @@ public class atirar : MonoBehaviour
     public bool tiroP1 = false;
     public bool p1morto = false;
     public GameObject vida;
-    public GameObject imagem;
+    public GameObject player;
 
     void Start()
     {
@@ -42,7 +42,7 @@ public class atirar : MonoBehaviour
                 Debug.Log("Atirou");
                 clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
                 clone.tag = "tiro";
-                imagem.GetComponent<Animator>().SetBool("atirando", true);
+                player.GetComponent<Animator>().SetBool("atirando", true);
                 municao -= 1.0f;
                 cooldown = 1.0f;
                 tiroP1 = true;

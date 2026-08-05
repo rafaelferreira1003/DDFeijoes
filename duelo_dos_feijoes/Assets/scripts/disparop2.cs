@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class disparop2 : MonoBehaviour
 {
-
     public int dano = 1;
     public GameObject vida;
 
@@ -11,34 +10,33 @@ public class disparop2 : MonoBehaviour
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-{
-    vida = GameObject.Find("vida");
-
-}
-
-// Update is called once per frame
-void Update()
-{
-
-}
-
-public void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.CompareTag("Player"))
     {
-        Destroy(GameObject.Find("tiro(Clone)"));
-        Debug.Log("acertou");
-        vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - dano;
-        Destroy(gameObject);
+        vida = GameObject.Find("vida");
+
     }
 
-
-    if (collision.CompareTag("Parede"))
+    // Update is called once per frame
+    void Update()
     {
-        Destroy(gameObject);
-        Debug.Log("bateu na parede");
+        
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.CompareTag("Player"))
+        {
+            Destroy(GameObject.Find("tiro(Clone)"));
+            Debug.Log("acertou");
+            vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - dano;
+            Destroy(gameObject);
+        }
+
+        if (collision.CompareTag("Parede"))
+        {
+            Destroy(gameObject);
+            Debug.Log("bateu na parede");
+        }
+
+    }
 }
-}
-  

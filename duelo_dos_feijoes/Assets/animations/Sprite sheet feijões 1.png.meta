@@ -1,49 +1,52 @@
 fileFormatVersion: 2
-guid: c4908ade148e45640a0444f21e8d4930
+guid: 218e1718e6d712d4897485b69211ee90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7307767987811757274
-    second: "Sprite sheet feij\xE3o 1 sem arma_0"
+      213: 6050612926500023539
+    second: "Sprite sheet feij\xF5es 1_0"
   - first:
-      213: 2765275101388310130
-    second: "Sprite sheet feij\xE3o 1 sem arma_1"
+      213: 1660305411222415133
+    second: "Sprite sheet feij\xF5es 1_1"
   - first:
-      213: -3088659122616048866
-    second: "Sprite sheet feij\xE3o 1 sem arma_2"
+      213: -7336707527082631629
+    second: "Sprite sheet feij\xF5es 1_2"
   - first:
-      213: -3715695314581093948
-    second: "Sprite sheet feij\xE3o 1 sem arma_3"
+      213: -3463394403880254575
+    second: "Sprite sheet feij\xF5es 1_3"
   - first:
-      213: -2920255598106324888
-    second: "Sprite sheet feij\xE3o 1 sem arma_4"
+      213: -202427938226487871
+    second: "Sprite sheet feij\xF5es 1_4"
   - first:
-      213: 7914646953427545055
-    second: "Sprite sheet feij\xE3o 1 sem arma_5"
+      213: -1477052492893245700
+    second: "Sprite sheet feij\xF5es 1_5"
   - first:
-      213: 6330398011118711843
-    second: "Sprite sheet feij\xE3o 1 sem arma_6"
+      213: 7894002787862403674
+    second: "Sprite sheet feij\xF5es 1_6"
   - first:
-      213: 6655534482756436282
-    second: "Sprite sheet feij\xE3o 1 sem arma_7"
+      213: 5240882183930966987
+    second: "Sprite sheet feij\xF5es 1_7"
   - first:
-      213: -2242533957629816323
-    second: "Sprite sheet feij\xE3o 1 sem arma_8"
+      213: 1273127814978185557
+    second: "Sprite sheet feij\xF5es 1_8"
   - first:
-      213: 6666606431088147744
-    second: "Sprite sheet feij\xE3o 1 sem arma_9"
+      213: 1435135610072193517
+    second: "Sprite sheet feij\xF5es 1_9"
   - first:
-      213: -5654504644916403151
-    second: "Sprite sheet feij\xE3o 1 sem arma_10"
+      213: -4612985246133911069
+    second: "Sprite sheet feij\xF5es 1_10"
   - first:
-      213: -3773704456206325352
-    second: "Sprite sheet feij\xE3o 1 sem arma_11"
+      213: -1931934699224077142
+    second: "Sprite sheet feij\xF5es 1_11"
   - first:
-      213: -650830458222904246
-    second: "Sprite sheet feij\xE3o 1 sem arma_12"
+      213: -3824660407777807467
+    second: "Sprite sheet feij\xF5es 1_12"
   - first:
-      213: -8933988595247707252
-    second: "Sprite sheet feij\xE3o 1 sem arma_13"
+      213: 4528601456574708167
+    second: "Sprite sheet feij\xF5es 1_13"
+  - first:
+      213: 5742256369137272313
+    second: "Sprite sheet feij\xF5es 1_14"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -178,309 +181,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_0"
+      name: "Sprite sheet feij\xF5es 1_0"
       rect:
         serializedVersion: 2
-        x: 25
-        y: 893
-        width: 103
-        height: 131
+        x: 0
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6235289bbb7959a90800000000000000
-      internalID: -7307767987811757274
+      spriteID: 3fcab6d266818f350800000000000000
+      internalID: 6050612926500023539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_1"
+      name: "Sprite sheet feij\xF5es 1_1"
       rect:
         serializedVersion: 2
-        x: 149
-        y: 894
-        width: 109
-        height: 118
+        x: 128
+        y: 896
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2768b7cbd0b306620800000000000000
-      internalID: 2765275101388310130
+      spriteID: d17229e89f69a0710800000000000000
+      internalID: 1660305411222415133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_2"
+      name: "Sprite sheet feij\xF5es 1_2"
       rect:
         serializedVersion: 2
-        x: 25
-        y: 769
-        width: 103
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e13633474e0e225d0800000000000000
-      internalID: -3088659122616048866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_3"
-      rect:
-        serializedVersion: 2
-        x: 154
+        x: 0
         y: 768
-        width: 103
-        height: 119
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c18fc84cc23f6cc0800000000000000
-      internalID: -3715695314581093948
+      spriteID: 33e1e4b2067ce2a90800000000000000
+      internalID: -7336707527082631629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_4"
+      name: "Sprite sheet feij\xF5es 1_3"
       rect:
         serializedVersion: 2
-        x: 285
+        x: 128
         y: 768
-        width: 119
-        height: 118
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 860d685710b2977d0800000000000000
-      internalID: -2920255598106324888
+      spriteID: 19344a7b32d8fefc0800000000000000
+      internalID: -3463394403880254575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_5"
+      name: "Sprite sheet feij\xF5es 1_4"
       rect:
         serializedVersion: 2
-        x: 412
+        x: 256
         y: 768
-        width: 100
-        height: 113
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdb2da5787976dd60800000000000000
-      internalID: 7914646953427545055
+      spriteID: 1cd3569dcd4d03df0800000000000000
+      internalID: -202427938226487871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_6"
+      name: "Sprite sheet feij\xF5es 1_5"
       rect:
         serializedVersion: 2
-        x: 26
-        y: 637
-        width: 109
-        height: 123
+        x: 384
+        y: 768
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 324f19383771ad750800000000000000
-      internalID: 6330398011118711843
+      spriteID: cfe2e7e5594708be0800000000000000
+      internalID: -1477052492893245700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_7"
+      name: "Sprite sheet feij\xF5es 1_6"
       rect:
         serializedVersion: 2
-        x: 157
-        y: 635
-        width: 109
-        height: 127
+        x: 0
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a318f0b79553d5c50800000000000000
-      internalID: 6655534482756436282
+      spriteID: a5a5b7a16b12d8d60800000000000000
+      internalID: 7894002787862403674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_8"
+      name: "Sprite sheet feij\xF5es 1_7"
       rect:
         serializedVersion: 2
-        x: 279
-        y: 644
-        width: 109
-        height: 119
+        x: 128
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df159ba3f3be0e0e0800000000000000
-      internalID: -2242533957629816323
+      spriteID: bc3f0e2349a5bb840800000000000000
+      internalID: 5240882183930966987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_9"
+      name: "Sprite sheet feij\xF5es 1_8"
       rect:
         serializedVersion: 2
-        x: 396
-        y: 630
-        width: 120
-        height: 132
+        x: 256
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02df7565a3b848c50800000000000000
-      internalID: 6666606431088147744
+      spriteID: 559a17d900f0ba110800000000000000
+      internalID: 1273127814978185557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_10"
+      name: "Sprite sheet feij\xF5es 1_9"
       rect:
         serializedVersion: 2
-        x: 520
-        y: 642
-        width: 120
-        height: 110
+        x: 384
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13426fafbf92781b0800000000000000
-      internalID: -5654504644916403151
+      spriteID: de9ddd2db30aae310800000000000000
+      internalID: 1435135610072193517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_11"
+      name: "Sprite sheet feij\xF5es 1_10"
       rect:
         serializedVersion: 2
-        x: 24
-        y: 513
-        width: 105
-        height: 114
+        x: 512
+        y: 640
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89963808acb11abc0800000000000000
-      internalID: -3773704456206325352
+      spriteID: 3e1021afb526bffb0800000000000000
+      internalID: -4612985246133911069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_12"
+      name: "Sprite sheet feij\xF5es 1_11"
       rect:
         serializedVersion: 2
-        x: 152
+        x: 0
         y: 512
-        width: 104
-        height: 115
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4c7e908529c7f6f0800000000000000
-      internalID: -650830458222904246
+      spriteID: aac6f7b70a36035e0800000000000000
+      internalID: -1931934699224077142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Sprite sheet feij\xE3o 1 sem arma_13"
+      name: "Sprite sheet feij\xF5es 1_12"
       rect:
         serializedVersion: 2
-        x: 288
-        y: 513
-        width: 99
-        height: 115
+        x: 128
+        y: 512
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8b8ed8f4b8140480800000000000000
-      internalID: -8933988595247707252
+      spriteID: 59337ef7f931ceac0800000000000000
+      internalID: -3824660407777807467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite sheet feij\xF5es 1_13"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9b37cf703d8de30800000000000000
+      internalID: 4528601456574708167
       vertices: []
       indices: 
       edges: []
@@ -489,7 +492,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1c49c94ab76adbd46b225a2a80241d0f
     internalID: 0
     vertices: []
     indices: 
@@ -497,22 +500,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "Sprite sheet feij\xE3o 1 sem arma_0": -7307767987811757274
-      "Sprite sheet feij\xE3o 1 sem arma_1": 2765275101388310130
-      "Sprite sheet feij\xE3o 1 sem arma_10": -5654504644916403151
-      "Sprite sheet feij\xE3o 1 sem arma_11": -3773704456206325352
-      "Sprite sheet feij\xE3o 1 sem arma_12": -650830458222904246
-      "Sprite sheet feij\xE3o 1 sem arma_13": -8933988595247707252
-      "Sprite sheet feij\xE3o 1 sem arma_2": -3088659122616048866
-      "Sprite sheet feij\xE3o 1 sem arma_3": -3715695314581093948
-      "Sprite sheet feij\xE3o 1 sem arma_4": -2920255598106324888
-      "Sprite sheet feij\xE3o 1 sem arma_5": 7914646953427545055
-      "Sprite sheet feij\xE3o 1 sem arma_6": 6330398011118711843
-      "Sprite sheet feij\xE3o 1 sem arma_7": 6655534482756436282
-      "Sprite sheet feij\xE3o 1 sem arma_8": -2242533957629816323
-      "Sprite sheet feij\xE3o 1 sem arma_9": 6666606431088147744
+      "Sprite sheet feij\xF5es 1_0": 6050612926500023539
+      "Sprite sheet feij\xF5es 1_1": 1660305411222415133
+      "Sprite sheet feij\xF5es 1_10": -4612985246133911069
+      "Sprite sheet feij\xF5es 1_11": -1931934699224077142
+      "Sprite sheet feij\xF5es 1_12": -3824660407777807467
+      "Sprite sheet feij\xF5es 1_13": 4528601456574708167
+      "Sprite sheet feij\xF5es 1_14": 5742256369137272313
+      "Sprite sheet feij\xF5es 1_2": -7336707527082631629
+      "Sprite sheet feij\xF5es 1_3": -3463394403880254575
+      "Sprite sheet feij\xF5es 1_4": -202427938226487871
+      "Sprite sheet feij\xF5es 1_5": -1477052492893245700
+      "Sprite sheet feij\xF5es 1_6": 7894002787862403674
+      "Sprite sheet feij\xF5es 1_7": 5240882183930966987
+      "Sprite sheet feij\xF5es 1_8": 1273127814978185557
+      "Sprite sheet feij\xF5es 1_9": 1435135610072193517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

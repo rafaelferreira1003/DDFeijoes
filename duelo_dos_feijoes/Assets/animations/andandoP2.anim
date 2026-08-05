@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: andandop2
+  m_Name: andandoP2
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1553289947954171489, guid: 1a309e583d13e1a43b68cbe65b607910, type: 3}
+      value: {fileID: -1931934699224077142, guid: 218e1718e6d712d4897485b69211ee90, type: 3}
     - time: 0.083333336
-      value: {fileID: -7790939773676634952, guid: 1a309e583d13e1a43b68cbe65b607910, type: 3}
+      value: {fileID: -3824660407777807467, guid: 218e1718e6d712d4897485b69211ee90, type: 3}
     - time: 0.16666667
-      value: {fileID: 1894807582236887623, guid: 1a309e583d13e1a43b68cbe65b607910, type: 3}
+      value: {fileID: 4528601456574708167, guid: 218e1718e6d712d4897485b69211ee90, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,9 +48,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1553289947954171489, guid: 1a309e583d13e1a43b68cbe65b607910, type: 3}
-    - {fileID: -7790939773676634952, guid: 1a309e583d13e1a43b68cbe65b607910, type: 3}
-    - {fileID: 1894807582236887623, guid: 1a309e583d13e1a43b68cbe65b607910, type: 3}
+    - {fileID: -1931934699224077142, guid: 218e1718e6d712d4897485b69211ee90, type: 3}
+    - {fileID: -3824660407777807467, guid: 218e1718e6d712d4897485b69211ee90, type: 3}
+    - {fileID: 4528601456574708167, guid: 218e1718e6d712d4897485b69211ee90, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
