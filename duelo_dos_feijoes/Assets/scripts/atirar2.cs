@@ -1,3 +1,4 @@
+
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -18,6 +19,7 @@ public class atirar2 : MonoBehaviour
     public bool tiroP2 = false;
     public bool p2morto = false;
     public GameObject vida;
+    public GameObject imagem;
 
     void Start()
     {
@@ -41,8 +43,8 @@ public class atirar2 : MonoBehaviour
             {
                 Debug.Log("Atirou");
                 clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
-                clone.tag = "tiro2";
-                GetComponent<Animator>().SetBool("atirandop2", true);
+                clone.tag = "tiro";
+                imagem.GetComponent<Animator>().SetBool("atirandop2", true);
                 municao -= 1.0f;
                 cooldown = 1.0f;
                 tiroP2 = true;
