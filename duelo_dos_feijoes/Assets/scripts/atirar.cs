@@ -8,7 +8,7 @@ public class atirar : MonoBehaviour
     public float tempo = 0.0f;
        float municao = 5.0f;
     public bool recarga = true;
-    public float cooldown = 1.0f;
+    public float cooldown = 0.5f;
     public bool aconteceu = false;
     public float tempoParaRecarga = 5.0f;
     public GameObject tiro;
@@ -44,7 +44,7 @@ public class atirar : MonoBehaviour
                 clone.tag = "tiro";
                 imagem.GetComponent<Animator>().SetBool("atirando", true);
                 municao -= 1.0f;
-                cooldown = 1.0f;
+                cooldown = 0.5f;
                 tiroP1 = true;
             }
 
