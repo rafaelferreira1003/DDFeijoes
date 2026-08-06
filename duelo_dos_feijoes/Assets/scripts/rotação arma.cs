@@ -1,9 +1,9 @@
 using JetBrains.Annotations;
 using UnityEngine;
 
-public class rotacao_p1 : MonoBehaviour
+public class rotacao_armap1 : MonoBehaviour
 {
-   
+
     public Transform parentTransform;
     public SpriteRenderer spriteRenderer;
     public float angle;
@@ -11,13 +11,13 @@ public class rotacao_p1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       angle = Mathf.RoundToInt(parentTransform.rotation.z);
+        angle = Mathf.RoundToInt(parentTransform.rotation.z);
 
-        transform.localRotation = Quaternion.Inverse(transform.parent.rotation);
-        if ( angle < 1)
+  
+        if (angle < 1)
         {
             spriteRenderer.flipX = true;
-   
+
         }
         else
         {
