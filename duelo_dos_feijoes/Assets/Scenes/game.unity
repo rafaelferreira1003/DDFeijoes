@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &34818937
 Animator:
@@ -1538,7 +1538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 445, y: 213}
+  m_AnchoredPosition: {x: 392.5, y: 217.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248007807
@@ -2027,7 +2027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318, y: 213}
+  m_AnchoredPosition: {x: 288.7, y: 213}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &333062686
@@ -3777,8 +3777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 427378402b36db64298da38d1f957626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::movimento_p2
-  velocidade: 5
-  rotacao: 65
+  velocidade: 3
+  rotacao: 90
   movimento_y: 0
   rotacao_x: 0
   vida: {fileID: 897693382}
@@ -4138,7 +4138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &610809482
 Animator:
@@ -4510,7 +4510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &641413643
 Animator:
@@ -4685,7 +4685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &662513563
 Animator:
@@ -5123,7 +5123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &794810541
 Animator:
@@ -5435,7 +5435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &839773775
 Animator:
@@ -5723,7 +5723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &890170364
 Animator:
@@ -5777,12 +5777,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdb0b1d26b215ae48b9c956335399d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::vida
-  player1life: 7
-  player2life: 7
+  player1life: 5
+  player2life: 5
   player1morto: 0
   player2morto: 0
   vidap1Text: {fileID: 1163347701}
   vidap2Text: {fileID: 316027060}
+  cooldown: 0.5
+  tempo: 0
 --- !u!212 &897693384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5940,8 +5942,8 @@ Transform:
   m_GameObject: {fileID: 915113412}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.79, y: 3.31, z: 0}
-  m_LocalScale: {x: 0.8347, y: 0.8849, z: 1}
+  m_LocalPosition: {x: -4.525, y: 3.3457, z: 0}
+  m_LocalScale: {x: 0.68103176, y: 0.65314466, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11273,7 +11275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1104719807
 Animator:
@@ -11738,7 +11740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297, y: 213}
+  m_AnchoredPosition: {x: -211.9, y: 213}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1163347701
@@ -11991,7 +11993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1181630360
 Animator:
@@ -17003,7 +17005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1189416863
 Animator:
@@ -17429,7 +17431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1325970856
 Animator:
@@ -17661,7 +17663,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -17916,8 +17918,8 @@ Transform:
   m_GameObject: {fileID: 1379949158}
   serializedVersion: 2
   m_LocalRotation: {x: 0.009635107, y: -0.009246108, z: -0.69233006, w: 0.7214574}
-  m_LocalPosition: {x: 5.63, y: 3.38, z: 0.29}
-  m_LocalScale: {x: 0.8274, y: 0.7126, z: 0}
+  m_LocalPosition: {x: 4.7929, y: 3.3973, z: 0.29}
+  m_LocalScale: {x: 0.61070395, y: 0.58141035, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -18210,7 +18212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1418699802
 Animator:
@@ -18385,7 +18387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1422411634
 Animator:
@@ -18560,7 +18562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1453784314
 Animator:
@@ -18849,7 +18851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1470093092
 Animator:
@@ -19024,7 +19026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1481283515
 Animator:
@@ -19269,8 +19271,8 @@ Transform:
   m_GameObject: {fileID: 1546008462}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.4299998, y: 3.3200002, z: 0.25}
-  m_LocalScale: {x: 0.8347, y: 0.8849, z: 1}
+  m_LocalPosition: {x: 2.9978998, y: 3.353, z: 0.25}
+  m_LocalScale: {x: 0.68103176, y: 0.65314466, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -19426,7 +19428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1547768846
 Animator:
@@ -19601,7 +19603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1548074494
 Animator:
@@ -19659,7 +19661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -170, y: 213}
+  m_AnchoredPosition: {x: -101.2, y: 220.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665110127
@@ -19912,7 +19914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1711203328
 Animator:
@@ -20935,8 +20937,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74d337c6180378345b683fdbb7f80773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::movimento_p1
-  velocidade: 5
-  rotacao: 45
+  velocidade: 3
+  rotacao: 90
   movimento_y: 0
   rotacao_x: 0
   vida: {fileID: 897693382}
@@ -21297,7 +21299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9be88682121d141867b739444adf72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
-  vida: 4
+  vida: 1
   dano: 1
 --- !u!95 &1950790897
 Animator:
@@ -21542,8 +21544,8 @@ Transform:
   m_GameObject: {fileID: 2033985881}
   serializedVersion: 2
   m_LocalRotation: {x: 0.009635107, y: -0.009246108, z: -0.69233006, w: 0.7214574}
-  m_LocalPosition: {x: -3.59, y: 3.37, z: 0.04}
-  m_LocalScale: {x: 0.8274, y: 0.7126, z: 0}
+  m_LocalPosition: {x: -2.73, y: 3.39, z: 0.04}
+  m_LocalScale: {x: 0.61070395, y: 0.58141035, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -21555,6 +21557,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 608363443}
+  - {fileID: 1898235562}
   - {fileID: 125182666}
   - {fileID: 1786140943}
   - {fileID: 1815652556}
@@ -21564,7 +21567,6 @@ SceneRoots:
   - {fileID: 1888956987}
   - {fileID: 1875636966}
   - {fileID: 1122729394}
-  - {fileID: 1898235562}
   - {fileID: 1369035089}
   - {fileID: 897693385}
   - {fileID: 259217369}
