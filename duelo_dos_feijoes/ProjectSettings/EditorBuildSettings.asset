@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/game.unity
     guid: 19c23cf3b36a9e1429859bffe7760ea7
+  - enabled: 1
+    path: "Assets/Scenes/Vit\xF3ria.unity"
+    guid: 437873a0c641ffe4aa481f2400868622
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
