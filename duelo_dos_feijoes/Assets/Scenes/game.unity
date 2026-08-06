@@ -579,6 +579,7 @@ GameObject:
   - component: {fileID: 68865519}
   - component: {fileID: 68865520}
   - component: {fileID: 68865521}
+  - component: {fileID: 68865522}
   m_Layer: 0
   m_Name: arma
   m_TagString: Untagged
@@ -686,6 +687,21 @@ MonoBehaviour:
   vida: {fileID: 897693382}
   imagem: {fileID: 363390333}
   municaoText: {fileID: 248007807}
+--- !u!114 &68865522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68865518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba17e585d0d08294191fb536326df5ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rotacao_armap1
+  parentTransform: {fileID: 608363443}
+  spriteRenderer: {fileID: 68865520}
+  angle: 0
 --- !u!1 &80708230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,6 +1917,7 @@ GameObject:
   - component: {fileID: 286330603}
   - component: {fileID: 286330604}
   - component: {fileID: 286330605}
+  - component: {fileID: 286330606}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -2007,6 +2024,21 @@ MonoBehaviour:
   vida: {fileID: 897693382}
   imagem: {fileID: 691520496}
   municaoText: {fileID: 1665110127}
+--- !u!114 &286330606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286330602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba17e585d0d08294191fb536326df5ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rotacao_armap1
+  parentTransform: {fileID: 1898235562}
+  spriteRenderer: {fileID: 286330604}
+  angle: 0
 --- !u!1 &316027059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2245,6 +2277,7 @@ GameObject:
   - component: {fileID: 363390336}
   - component: {fileID: 363390337}
   - component: {fileID: 363390338}
+  - component: {fileID: 363390339}
   m_Layer: 0
   m_Name: imagem
   m_TagString: Untagged
@@ -2359,6 +2392,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5374b1e8105e3bc41b7f5063438ecdc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::rotacao_p1
+  parentTransform: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  angle: 0
+--- !u!114 &363390339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363390333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5374b1e8105e3bc41b7f5063438ecdc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rotacao_p1
+  parentTransform: {fileID: 608363443}
+  spriteRenderer: {fileID: 363390336}
+  angle: 0
 --- !u!1 &385699887
 GameObject:
   m_ObjectHideFlags: 0
@@ -4858,6 +4909,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5374b1e8105e3bc41b7f5063438ecdc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::rotacao_p1
+  parentTransform: {fileID: 1898235562}
+  spriteRenderer: {fileID: 691520499}
+  angle: 0
 --- !u!1 &708603353
 GameObject:
   m_ObjectHideFlags: 0
