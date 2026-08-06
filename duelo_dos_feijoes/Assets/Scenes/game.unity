@@ -5783,7 +5783,7 @@ MonoBehaviour:
   player2morto: 0
   vidap1Text: {fileID: 1163347701}
   vidap2Text: {fileID: 316027060}
-  cooldown: 0.5
+  cooldown: 1.7
   tempo: 0
 --- !u!212 &897693384
 SpriteRenderer:
@@ -17660,8 +17660,8 @@ Canvas:
   m_GameObject: {fileID: 1369035085}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
@@ -17671,8 +17671,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2094802789
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!224 &1369035089
 RectTransform:
