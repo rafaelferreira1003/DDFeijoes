@@ -8,6 +8,12 @@ public class StartMenuController : MonoBehaviour
         SceneManager.LoadScene("game");
     }
 
+    public void OncreditosClick()
+    {
+        SceneManager.LoadScene("creditos");
+    }
+
+
     public void OnExitClick()
     {
 #if UNITY_EDITOR
