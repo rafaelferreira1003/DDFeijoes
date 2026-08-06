@@ -6,11 +6,14 @@ public class vida : MonoBehaviour
     public int player2life = 7;
     public bool player1morto = false;
     public bool player2morto = false;
-    public GameObject player1;
-    public GameObject player2;
+    [SerializeField] TMPro.TMP_Text vidap1Text;
+    [SerializeField] TMPro.TMP_Text vidap2Text;
 
 
-    // Update is called once per frame
+    void Start()
+    {
+        UpdateVidaUI();
+    }
     void Update()
     {
         if (player1life <= 0)
@@ -24,7 +27,12 @@ public class vida : MonoBehaviour
         }
 
     }
+    public void UpdateVidaUI()
+    {
+        vidap1Text.text = player1life.ToString();
+        vidap2Text.text = player2life.ToString();
+    }
 
-   
- }
+
+}
 

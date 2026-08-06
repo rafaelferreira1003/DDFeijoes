@@ -19,10 +19,12 @@ public class atirar : MonoBehaviour
     public bool p1morto = false;
     public GameObject vida;
     public GameObject imagem;
+    [SerializeField] TMPro.TMP_Text municaoText;
 
     void Start()
     {
         tiro = GameObject.Find("tirop1");
+        municaoText.text = municao.ToString();
     }
 
 
@@ -46,6 +48,7 @@ public class atirar : MonoBehaviour
                 municao -= 1.0f;
                 cooldown = 0.5f;
                 tiroP1 = true;
+                municaoText.text = municao.ToString();
             }
 
 
@@ -66,6 +69,7 @@ public class atirar : MonoBehaviour
                     aconteceu = false;
                     recarga = true;
                     municao = 5.0f;
+                    municaoText.text = municao.ToString();
                 }
             }
 
@@ -73,6 +77,7 @@ public class atirar : MonoBehaviour
             if (recarga && municao <= 0.0f)
             {
                 municao = 5.0f;
+                municaoText.text = municao.ToString();
             }
 
             if (clone != null)

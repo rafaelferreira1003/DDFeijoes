@@ -29,7 +29,8 @@ public void OnTriggerEnter2D(Collider2D collision)
         Destroy(GameObject.Find("tiro(Clone)"));
         Debug.Log("acertou");
         vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - dano;
-        Destroy(gameObject);
+        vida.GetComponent<vida>().UpdateVidaUI();
+            Destroy(gameObject);
     }
 
 

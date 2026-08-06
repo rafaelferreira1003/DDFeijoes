@@ -13,6 +13,7 @@ public class movimento_p1 : MonoBehaviour
     public GameObject vida;
     public bool p1morto = false;
     public GameObject imagem;
+    [SerializeField] TMPro.TMP_Text vidaText;
 
     void Update()
     {
@@ -37,4 +38,6 @@ public class movimento_p1 : MonoBehaviour
 
 
     }
+
+ 
 }

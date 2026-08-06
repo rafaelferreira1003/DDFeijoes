@@ -28,6 +28,7 @@ public class disparop1 : MonoBehaviour
             Destroy(GameObject.Find("tiro(Clone)"));
             Debug.Log("acertou");
             vida.GetComponent<vida>().player2life = vida.GetComponent<vida>().player2life - dano;
+            vida.GetComponent<vida>().UpdateVidaUI();
             Destroy(gameObject);
         }
 
