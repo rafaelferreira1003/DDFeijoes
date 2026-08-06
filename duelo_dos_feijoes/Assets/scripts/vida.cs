@@ -31,6 +31,7 @@ public class vida : MonoBehaviour
         {
            player2morto = true;
             tempo += Time.deltaTime;
+            mudar_cena();
         }
 
     }
