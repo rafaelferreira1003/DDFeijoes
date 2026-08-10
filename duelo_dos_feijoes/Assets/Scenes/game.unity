@@ -409,6 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &34818937
 Animator:
   serializedVersion: 7
@@ -4142,6 +4143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &610809482
 Animator:
   serializedVersion: 7
@@ -4514,6 +4516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &641413643
 Animator:
   serializedVersion: 7
@@ -4689,6 +4692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &662513563
 Animator:
   serializedVersion: 7
@@ -5130,6 +5134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &794810541
 Animator:
   serializedVersion: 7
@@ -5395,6 +5400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &839773775
 Animator:
   serializedVersion: 7
@@ -5683,6 +5689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &890170364
 Animator:
   serializedVersion: 7
@@ -5741,8 +5748,14 @@ MonoBehaviour:
   player2morto: 0
   vidap1Text: {fileID: 1163347701}
   vidap2Text: {fileID: 316027060}
+  player1: {fileID: 691520499}
+  player2: {fileID: 363390336}
   cooldown: 1.7
   tempo: 0
+  animacao_dano_tempoP1: 0
+  animacao_dano_tempoP2: 0
+  animacao_danoP1: 0
+  animacao_danoP2: 0
 --- !u!212 &897693384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11235,6 +11248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1104719807
 Animator:
   serializedVersion: 7
@@ -11953,6 +11967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1181630360
 Animator:
   serializedVersion: 7
@@ -16965,6 +16980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1189416863
 Animator:
   serializedVersion: 7
@@ -17391,6 +17407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1325970856
 Animator:
   serializedVersion: 7
@@ -18172,6 +18189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1418699802
 Animator:
   serializedVersion: 7
@@ -18347,6 +18365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1422411634
 Animator:
   serializedVersion: 7
@@ -18522,6 +18541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1453784314
 Animator:
   serializedVersion: 7
@@ -18811,6 +18831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1470093092
 Animator:
   serializedVersion: 7
@@ -18986,6 +19007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1481283515
 Animator:
   serializedVersion: 7
@@ -19379,6 +19401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1547768846
 Animator:
   serializedVersion: 7
@@ -19554,6 +19577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1548074494
 Animator:
   serializedVersion: 7
@@ -19865,6 +19889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1711203328
 Animator:
   serializedVersion: 7
@@ -21241,6 +21266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::destruirCaixa
   vida: 1
   dano: 1
+  imagem: {fileID: 0}
 --- !u!95 &1950790897
 Animator:
   serializedVersion: 7
