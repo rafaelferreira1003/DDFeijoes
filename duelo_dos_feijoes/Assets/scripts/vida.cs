@@ -10,8 +10,14 @@ public class vida : MonoBehaviour
     public bool player2morto = false;
     [SerializeField] TMPro.TMP_Text vidap1Text;
     [SerializeField] TMPro.TMP_Text vidap2Text;
+    public SpriteRenderer player1;
+    public SpriteRenderer player2;
     public float cooldown = 0.5f;
     public float tempo = 0f;
+    public float animacao_dano_tempoP1 = 0f;
+    public float animacao_dano_tempoP2 = 0f;
+    public bool animacao_danoP1 = false;
+    public bool animacao_danoP2 = false;
 
 
     void Start()
@@ -32,6 +38,30 @@ public class vida : MonoBehaviour
            player2morto = true;
             tempo += Time.deltaTime;
             mudar_cena();
+        }
+
+        if (animacao_danoP1 == true)
+        {
+            animacao_dano_tempoP1 += Time.deltaTime;
+            player1.color = Color.indianRed;
+            if (animacao_dano_tempoP1 >= 0.2f)
+            {
+                player1.color = Color.white;
+                animacao_danoP1 = false;
+                animacao_dano_tempoP1 = 0f;
+            }
+        }
+
+        if (animacao_danoP2 == true)
+        {
+            animacao_dano_tempoP2 += Time.deltaTime;
+            player2.color = Color.indianRed;
+            if (animacao_dano_tempoP2 >= 0.2f)
+            {
+                player2.color = Color.white;
+                animacao_danoP2 = false;
+                animacao_dano_tempoP2 = 0f;
+            }
         }
 
     }
@@ -56,5 +86,7 @@ public class vida : MonoBehaviour
             }
         }
     }
+
+    
 }
 

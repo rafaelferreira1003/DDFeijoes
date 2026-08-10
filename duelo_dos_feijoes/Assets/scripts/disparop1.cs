@@ -29,6 +29,7 @@ public class disparop1 : MonoBehaviour
             Debug.Log("acertou");
             vida.GetComponent<vida>().player2life = vida.GetComponent<vida>().player2life - dano;
             vida.GetComponent<vida>().UpdateVidaUI();
+            vida.GetComponent<vida>().animacao_danoP2 = true;
             Destroy(gameObject);
         }
 

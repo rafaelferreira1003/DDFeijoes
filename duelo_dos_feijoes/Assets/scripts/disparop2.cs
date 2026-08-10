@@ -30,6 +30,7 @@ public void OnTriggerEnter2D(Collider2D collision)
         Debug.Log("acertou");
         vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - dano;
         vida.GetComponent<vida>().UpdateVidaUI();
+        vida.GetComponent<vida>().animacao_danoP1 = true;
             Destroy(gameObject);
     }
 
