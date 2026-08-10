@@ -60,8 +60,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Caixas
+    uniqueID: 3336569137
+    locked: 0
   - name: UI
     uniqueID: 2200164507
+    locked: 0
+  - name: Arma
+    uniqueID: 1795753923
     locked: 0
   m_RenderingLayers:
   - Default
