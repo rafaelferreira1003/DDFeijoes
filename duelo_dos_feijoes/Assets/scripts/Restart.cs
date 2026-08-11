@@ -6,7 +6,7 @@ public class Restart : MonoBehaviour
 
     private string sceneName = "menu";
 
-    private KeyCode loadKey = KeyCode.R;
+    private KeyCode loadKey = KeyCode.Escape;
 
     private void Update()
     {

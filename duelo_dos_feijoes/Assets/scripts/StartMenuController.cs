@@ -13,6 +13,11 @@ public class StartMenuController : MonoBehaviour
         SceneManager.LoadScene("creditos");
     }
 
+    public void OnTutorialClick()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
 
     public void OnExitClick()
     {

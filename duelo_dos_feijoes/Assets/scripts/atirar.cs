@@ -39,7 +39,7 @@ public class atirar : MonoBehaviour
             }
 
             // Tiro
-            if (Input.GetKeyDown(KeyCode.Space) && recarga && municao > 0.0f && cooldown <= 0.0f)
+            if (Input.GetKeyDown(KeyCode.G) && recarga && municao > 0.0f && cooldown <= 0.0f)
             {
                 Debug.Log("Atirou");
                 clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
