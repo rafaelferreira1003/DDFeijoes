@@ -14,7 +14,7 @@ public class rotacao_p1 : MonoBehaviour
        angle = Mathf.RoundToInt(parentTransform.rotation.z);
 
         transform.localRotation = Quaternion.Inverse(transform.parent.rotation);
-        if ( angle < 1)
+        if ( angle == 0 || angle == -1)
         {
             spriteRenderer.flipX = true;
    
