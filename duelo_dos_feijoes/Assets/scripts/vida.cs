@@ -1,4 +1,4 @@
-using UnityEditor.SearchService;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -31,11 +31,12 @@ public class vida : MonoBehaviour
            player1morto = true;
             tempo += Time.deltaTime;
             mudar_cena();
+           
         }
 
         if (player2life <= 0)
         {
-           player2morto = true;
+            player2morto = true;
             tempo += Time.deltaTime;
             mudar_cena();
         }
