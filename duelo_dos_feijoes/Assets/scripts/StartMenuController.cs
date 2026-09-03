@@ -1,11 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class StartMenuController : MonoBehaviour
 {
-   public void OnStartClick()
+
+    public GameObject transition;
+
+
+    public void OnStartClick()
     {
-        SceneManager.LoadScene("game");
+        StartCoroutine(OnStart());
+    }
+
+    public IEnumerator OnStart()
+    { 
+        transition.GetComponent<Animator>().SetTrigger("transition");   
+         yield return new WaitForSeconds(1f);
+      SceneManager.LoadScene("game");
+       
+       
     }
 
     public void OncreditosClick()
