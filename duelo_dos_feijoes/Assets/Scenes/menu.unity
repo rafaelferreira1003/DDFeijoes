@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 74966628}
   - component: {fileID: 74966627}
-  - component: {fileID: 74966626}
   - component: {fileID: 74966630}
   - component: {fileID: 74966629}
   m_Layer: 0
@@ -139,18 +138,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &74966626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74966625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a11137aefff10b744b9274092e59136f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MovimentoDeriva
 --- !u!212 &74966627
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -275,7 +262,6 @@ GameObject:
   m_Component:
   - component: {fileID: 123384224}
   - component: {fileID: 123384223}
-  - component: {fileID: 123384225}
   m_Layer: 0
   m_Name: art battle bean 2_0
   m_TagString: Untagged
@@ -356,18 +342,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 515094005}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &123384225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 123384222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a11137aefff10b744b9274092e59136f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MovimentoDeriva
 --- !u!1 &153074680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1246,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: StartMenuController, Assembly-CSharp
         m_MethodName: OnStartClick
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 765908117}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: set_isStatic
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
