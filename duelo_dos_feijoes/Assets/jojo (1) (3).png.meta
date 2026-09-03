@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 38a72ca13dd6036438b10982fc15bb4b
+guid: 8d9d9969c40a95944acf1c8f42258bed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5766569755162165156
-    second: jojo_0
+      213: 2832037652326324500
+    second: jojo (1) (3)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jojo_0
+      name: jojo (1) (3)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c504c0b3c5709ffa0800000000000000
-      internalID: -5766569755162165156
+      spriteID: 41911717d3b6d4720800000000000000
+      internalID: 2832037652326324500
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      jojo_0: -5766569755162165156
+      jojo (1) (3)_0: 2832037652326324500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
