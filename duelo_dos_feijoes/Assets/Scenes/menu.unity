@@ -262,6 +262,8 @@ GameObject:
   m_Component:
   - component: {fileID: 78929420}
   - component: {fileID: 78929419}
+  - component: {fileID: 78929422}
+  - component: {fileID: 78929421}
   m_Layer: 0
   m_Name: Triple baka battle bean_0
   m_TagString: Untagged
@@ -342,6 +344,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &78929421
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78929418}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!320 &78929422
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78929418}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: d6ce5373db831524c85b5e44f2b8d8b4, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4690454199633510173, guid: d6ce5373db831524c85b5e44f2b8d8b4, type: 2}
+    value: {fileID: 78929421}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &123384222
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,8 +872,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 579.12}
-  m_SizeDelta: {x: 700.28, y: 798.59}
+  m_AnchoredPosition: {x: -3.88, y: 579.12}
+  m_SizeDelta: {x: 700.28, y: 833.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435728378
 MonoBehaviour:
@@ -1787,8 +1830,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: -571.94}
-  m_SizeDelta: {x: 689.89, y: 798.59}
+  m_AnchoredPosition: {x: -3.88, y: -571.94}
+  m_SizeDelta: {x: 689.89, y: 833.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1023663527
 MonoBehaviour:
@@ -2545,7 +2588,7 @@ SceneRoots:
   - {fileID: 861061586}
   - {fileID: 153074682}
   - {fileID: 1434737152}
-  - {fileID: 74966628}
   - {fileID: 640437022}
   - {fileID: 594423263}
   - {fileID: 78929420}
+  - {fileID: 74966628}
