@@ -18,8 +18,11 @@ public class StartMenuController : MonoBehaviour
     public IEnumerator OnStart()
     { 
         transition.GetComponent<Animator>().SetTrigger("transition");   
-         yield return new WaitForSeconds(1f);
-      SceneManager.LoadScene("game");
+         yield return new WaitForSeconds(2f);
+        {
+            SceneManager.LoadScene("game");
+        }
+       
        
        
     }
