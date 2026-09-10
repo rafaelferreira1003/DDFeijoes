@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class vida : MonoBehaviour
 {
-    public int player1life = 7;
-    public int player2life = 7;
+    [Min(0)]public int player1life = 7;
+    [Min(0)]public int player2life = 7;
     public bool player1morto = false;
     public bool player2morto = false;
     [SerializeField] TMPro.TMP_Text vidap1Text;
