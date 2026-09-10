@@ -9,32 +9,28 @@ public class StartMenuController : MonoBehaviour
 
     public GameObject transition;
 
-
     public void OnStartClick()
     {
-        StartCoroutine(OnStart());
+        StartCoroutine(OnStart("game"));
     }
 
-    public IEnumerator OnStart()
+    public IEnumerator OnStart(string cena)
     { 
         transition.GetComponent<Animator>().SetTrigger("transition");   
          yield return new WaitForSeconds(1.4f);
         {
-            SceneManager.LoadScene("game");
+            SceneManager.LoadScene(cena);
         }
-       
-       
-       
     }
 
     public void OncreditosClick()
     {
-        SceneManager.LoadScene("creditos");
+        StartCoroutine(OnStart("creditos"));
     }
 
     public void OnTutorialClick()
     {
-        SceneManager.LoadScene("Tutorial");
+        StartCoroutine(OnStart("Tutorial"));
     }
 
 
