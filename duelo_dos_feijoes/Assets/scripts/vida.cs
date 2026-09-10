@@ -18,7 +18,7 @@ public class vida : MonoBehaviour
     public float animacao_dano_tempoP2 = 0f;
     public bool animacao_danoP1 = false;
     public bool animacao_danoP2 = false;
-
+    public GameObject transition;
 
     void Start()
     {
@@ -85,6 +85,11 @@ public class vida : MonoBehaviour
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Vitória_1");
             }
+        }
+
+        if (tempo >= cooldown / 2.0f)
+        {
+            transition.GetComponent<Animator>().SetTrigger("transition");
         }
     }
 
