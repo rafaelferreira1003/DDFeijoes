@@ -21,14 +21,12 @@ public class atirar2 : MonoBehaviour
     public GameObject vida;
     public GameObject imagem;
     [SerializeField] TMPro.TMP_Text municaoText;
-    public AudioClip atirar_som;
-    public AudioClip recarga_som;
-    public AudioSource audioSource;
+
     void Start()
     {
         tiro = GameObject.Find("tirop2");
         municaoText.text = municao.ToString();
-        audioSource = GetComponent<AudioSource>();
+
     }
 
 
@@ -42,7 +40,7 @@ public class atirar2 : MonoBehaviour
                 cooldown -= Time.deltaTime;
             }
 
-            
+            // Tiro
             if (Input.GetKeyDown(KeyCode.RightControl) && recarga && municao > 0.0f && cooldown <= 0.0f)
             {
                 Debug.Log("Atirou");
@@ -53,7 +51,6 @@ public class atirar2 : MonoBehaviour
                 cooldown = 0.5f;
                 tiroP2 = true;
                 municaoText.text = municao.ToString();
-                audioSource.PlayOneShot(atirar_som);
             }
 
 
@@ -75,7 +72,6 @@ public class atirar2 : MonoBehaviour
                     recarga = true;
                     municao = 5.0f;
                     municaoText.text = municao.ToString();
-                    audioSource.PlayOneShot(recarga_som);
                 }
             }
 

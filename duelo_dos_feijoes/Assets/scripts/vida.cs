@@ -19,7 +19,6 @@ public class vida : MonoBehaviour
     public bool animacao_danoP1 = false;
     public bool animacao_danoP2 = false;
     public GameObject transition;
-    public bool som_tocando = false;
 
     void Start()
     {
@@ -65,8 +64,6 @@ public class vida : MonoBehaviour
                 animacao_dano_tempoP2 = 0f;
             }
         }
-
-      
 
     }
     public void UpdateVidaUI()
