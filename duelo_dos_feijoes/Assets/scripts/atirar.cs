@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 public class atirar : MonoBehaviour
 {
     public float tempo = 0.0f;
-       float municao = 5.0f;
+    float municao = 5.0f;
     public bool recarga = true;
     public float cooldown = 0.5f;
     public bool aconteceu = false;
@@ -20,11 +20,15 @@ public class atirar : MonoBehaviour
     public GameObject vida;
     public GameObject imagem;
     [SerializeField] TMPro.TMP_Text municaoText;
+    public AudioClip atirar_som;
+    public AudioClip recarga_som;
+    public AudioSource audioSource;
 
     void Start()
     {
         tiro = GameObject.Find("tirop1");
         municaoText.text = municao.ToString();
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -49,6 +53,7 @@ public class atirar : MonoBehaviour
                 cooldown = 0.5f;
                 tiroP1 = true;
                 municaoText.text = municao.ToString();
+                audioSource.PlayOneShot(atirar_som);
             }
 
 
@@ -70,6 +75,7 @@ public class atirar : MonoBehaviour
                     recarga = true;
                     municao = 5.0f;
                     municaoText.text = municao.ToString();
+                    audioSource.PlayOneShot(recarga_som);
                 }
             }
 
