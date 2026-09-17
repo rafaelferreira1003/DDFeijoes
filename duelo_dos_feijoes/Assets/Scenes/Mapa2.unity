@@ -512,6 +512,9 @@ MonoBehaviour:
   vida: {fileID: 897693382}
   imagem: {fileID: 363390333}
   municaoText: {fileID: 248007807}
+  atirar_som: {fileID: 0}
+  recarga_som: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &68865522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,7 +875,7 @@ Transform:
   m_GameObject: {fileID: 92593094}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.717, y: 2.35, z: 0.45}
+  m_LocalPosition: {x: 4.717, y: 2.378, z: 0.45}
   m_LocalScale: {x: 0.6142042, y: 0.5147174, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1713,6 +1716,9 @@ MonoBehaviour:
   vida: {fileID: 897693382}
   imagem: {fileID: 691520496}
   municaoText: {fileID: 1665110127}
+  atirar_som: {fileID: 0}
+  recarga_som: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!114 &286330606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4385,6 +4391,7 @@ MonoBehaviour:
   vida: 1
   dano: 1
   imagem: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!95 &839773775
 Animator:
   serializedVersion: 7
@@ -4565,6 +4572,7 @@ MonoBehaviour:
   animacao_danoP1: 0
   animacao_danoP2: 0
   transition: {fileID: 1600056519}
+  som_tocando: 0
 --- !u!212 &897693384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10601,6 +10609,7 @@ MonoBehaviour:
   vida: 1
   dano: 1
   imagem: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!95 &1181630360
 Animator:
   serializedVersion: 7
@@ -16077,6 +16086,7 @@ MonoBehaviour:
   vida: 1
   dano: 1
   imagem: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!95 &1325970856
 Animator:
   serializedVersion: 7
@@ -16746,6 +16756,7 @@ MonoBehaviour:
   vida: 1
   dano: 1
   imagem: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!95 &1470093092
 Animator:
   serializedVersion: 7
@@ -16922,6 +16933,7 @@ MonoBehaviour:
   vida: 1
   dano: 1
   imagem: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!95 &1481283515
 Animator:
   serializedVersion: 7
@@ -18846,6 +18858,7 @@ MonoBehaviour:
   vida: 1
   dano: 1
   imagem: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!95 &1950790897
 Animator:
   serializedVersion: 7
