@@ -6,11 +6,10 @@ public class arbusto : MonoBehaviour
     public Transform minpos;
     public Transform maxpos;
     public GameObject arbustoPrefab;
-    public float spawnInterval = 5f;
+    public float spawnInterval = 3f;
     public float spawnTimer = 0f;
     void Start()
     {
-        spawnInterval = Random.Range(2f, 7f);
     }
 
     // Update is called once per frame
@@ -19,7 +18,7 @@ public class arbusto : MonoBehaviour
         if (spawnTimer > spawnInterval)
         {
             spawnTimer = 0f;
-            spawnInterval = Random.Range(2f, 7f);
+            spawnInterval = Random.Range(2.3f, 4.5f);
             float randomy = Random.Range(minpos.position.y, maxpos.position.y);
             Instantiate(arbustoPrefab, new Vector2(transform.position.x, randomy), Quaternion.identity);
         }
