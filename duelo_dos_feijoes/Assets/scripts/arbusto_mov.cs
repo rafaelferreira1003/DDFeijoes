@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class arbusto_mov : MonoBehaviour
@@ -19,7 +18,7 @@ public class arbusto_mov : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        { 
+        {
             vida.GetComponent<vida>().player1life = vida.GetComponent<vida>().player1life - 1;
             vida.GetComponent<vida>().animacao_danoP1 = true;
             vida.GetComponent<vida>().UpdateVidaUI();
@@ -34,8 +33,8 @@ public class arbusto_mov : MonoBehaviour
         }
         if (collision.CompareTag("tiro"))
         {
-                Destroy(gameObject);
-            
+            Destroy(gameObject);
+
         }
     }
 }
