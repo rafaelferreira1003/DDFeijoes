@@ -20,6 +20,7 @@ public class vida : MonoBehaviour
     public bool animacao_danoP2 = false;
     public GameObject transition;
     public bool som_tocando = false;
+    public Scene Tutorial;
 
     void Start()
     {
@@ -27,6 +28,12 @@ public class vida : MonoBehaviour
     }
     void Update()
     {
+        if (SceneManager.GetActiveScene().name == ("Tutorial"))
+        {
+            player1life = 999999999;
+            player2life = 999999999;
+        }
+
         if (player1life <= 0)
         {
            player1morto = true;
