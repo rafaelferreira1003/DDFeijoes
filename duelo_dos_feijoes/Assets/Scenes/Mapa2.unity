@@ -4573,6 +4573,8 @@ MonoBehaviour:
   animacao_danoP2: 0
   transition: {fileID: 1600056519}
   som_tocando: 0
+  Tutorial:
+    m_Handle: 0
 --- !u!212 &897693384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15592,8 +15594,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1795753923
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 8553644676312078080, guid: 3a8d53cc75d8fea488a711f500e6b414, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17079,8 +17081,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1795753923
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 8553644676312078080, guid: 3a8d53cc75d8fea488a711f500e6b414, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
