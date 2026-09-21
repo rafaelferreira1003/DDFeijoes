@@ -26,9 +26,16 @@ public class atirar2 : MonoBehaviour
     public AudioSource audioSource;
     void Start()
     {
-        tiro = GameObject.Find("tirop2");
-        municaoText.text = municao.ToString();
-        audioSource = GetComponent<AudioSource>();
+        try
+        {
+            tiro = GameObject.Find("tirop2");
+            municaoText.text = municao.ToString();
+            audioSource = GetComponent<AudioSource>();
+        }
+        catch
+        {
+        }
+      
     }
 
 

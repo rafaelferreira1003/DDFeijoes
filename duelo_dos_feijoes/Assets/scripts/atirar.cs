@@ -26,12 +26,17 @@ public class atirar : MonoBehaviour
 
     void Start()
     {
-        tiro = GameObject.Find("tirop1");
-        municaoText.text = municao.ToString();
-        audioSource = GetComponent<AudioSource>();
+        try
+        {
+            tiro = GameObject.Find("tirop1");
+            municaoText.text = municao.ToString();
+            audioSource = GetComponent<AudioSource>();
+        }
+        catch
+        {
+        }
+
     }
-
-
     void Update()
     {
         p1morto = vida.GetComponent<vida>().player1morto;

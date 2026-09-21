@@ -1288,6 +1288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Restart
   transition: {fileID: 1388698328}
+  autoLoad: 1
 --- !u!1 &1100982893
 GameObject:
   m_ObjectHideFlags: 0

@@ -78,11 +78,15 @@ public class vida : MonoBehaviour
     }
     public void UpdateVidaUI()
     {
-        vidap1Text.text = player1life.ToString();
-        vidap2Text.text = player2life.ToString();
-        mudar_cena();
+        try
+        {
+            vidap1Text.text = player1life.ToString();
+            vidap2Text.text = player2life.ToString();
+            mudar_cena();
+        }
+        catch
+        { }
     }
-
     public void mudar_cena()
     {
         if (tempo >= cooldown)

@@ -15,8 +15,16 @@ public class Restart : MonoBehaviour
     public bool autoLoad = false;
     private void Start()
     {
-       StartCoroutine(carregar_cena());
-        autoLoad = true;
+        if (SceneManager.GetActiveScene().name == "Vitória" || (SceneManager.GetActiveScene().name == "Vitória_1"))
+        {
+            StartCoroutine(carregar_cena());
+            autoLoad = true;
+        }
+        else
+        {
+           
+            autoLoad = false;
+        }
     }
    public void Update()
     {
@@ -30,7 +38,7 @@ public class Restart : MonoBehaviour
     {
         if (autoLoad)
         {
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(10f);
             {
                 transition.GetComponent<Animator>().SetTrigger("transition");
                 yield return new WaitForSeconds(1.4f);

@@ -37,7 +37,6 @@ public class disparop1 : MonoBehaviour
         if (collision.CompareTag("Parede"))
         {
             Destroy(gameObject);
-            Debug.Log("bateu na parede");
         }
 
     }
