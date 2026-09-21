@@ -18,7 +18,7 @@ public class arbusto : MonoBehaviour
         if (spawnTimer > spawnInterval)
         {
             spawnTimer = 0f;
-            spawnInterval = Random.Range(2.3f, 4.5f);
+            spawnInterval = Random.Range(2f, 3.5f);
             float randomy = Random.Range(minpos.position.y, maxpos.position.y);
             Instantiate(arbustoPrefab, new Vector2(transform.position.x, randomy), Quaternion.identity);
         }

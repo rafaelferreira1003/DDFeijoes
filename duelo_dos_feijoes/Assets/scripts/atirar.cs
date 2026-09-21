@@ -45,7 +45,6 @@ public class atirar : MonoBehaviour
             // Tiro
             if (Input.GetKeyDown(KeyCode.G) && recarga && municao > 0.0f && cooldown <= 0.0f)
             {
-                Debug.Log("Atirou");
                 clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
                 clone.tag = "tiro";
                 imagem.GetComponent<Animator>().SetBool("atirando", true);

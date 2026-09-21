@@ -12,25 +12,44 @@ public class Restart : MonoBehaviour
 
     public GameObject transition;
 
-    private void Update()
+    public bool autoLoad = false;
+    private void Start()
+    {
+       StartCoroutine(carregar_cena());
+        autoLoad = true;
+    }
+   public void Update()
     {
         if (Input.GetKeyDown(loadKey))
         {
-            if (!string.IsNullOrEmpty(sceneName))
-            {
-                StartCoroutine(carregar_cena());
-            }
-            else
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
+            autoLoad = false;
+            StartCoroutine(carregar_cena());
         }
     }
-    public IEnumerator carregar_cena ()
+    public IEnumerator carregar_cena()
     {
-        transition.GetComponent<Animator>().SetTrigger("transition");
-        yield return new WaitForSeconds(1.4f);
-        {   SceneManager.LoadScene(sceneName);}
+        if (autoLoad)
+        {
+            yield return new WaitForSeconds(5f);
+            {
+                transition.GetComponent<Animator>().SetTrigger("transition");
+                yield return new WaitForSeconds(1.4f);
+                {
+                    SceneManager.LoadScene(sceneName);
+                }
+
+            }
+            
+        }
+        else
+        {
+            transition.GetComponent<Animator>().SetTrigger("transition");
+            yield return new WaitForSeconds(1.4f);
+            { SceneManager.LoadScene(sceneName); }
+        }
+
+   
       
     }
+
 }

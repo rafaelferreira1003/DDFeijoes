@@ -17,7 +17,7 @@ public class StartMenuController : MonoBehaviour
     }
     public void OnStartClick()
     {
-        StartCoroutine(OnStart(cenas[Random.Range(0 ,1)]));
+        StartCoroutine(OnStart(cenas[Random.Range(0, 2)]));
     }
 
     public IEnumerator OnStart(string cena)
