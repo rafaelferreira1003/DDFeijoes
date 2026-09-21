@@ -9,7 +9,7 @@ public class StartMenuController : MonoBehaviour
 
     public GameObject transition;
 
-    List<string> cenas = new List<string> { "game", "Mapa2"};
+    List<string> cenas = new List<string> { "game", "Mapa2", "Mapa3"};
 
     void Start()
     {
@@ -17,7 +17,7 @@ public class StartMenuController : MonoBehaviour
     }
     public void OnStartClick()
     {
-        StartCoroutine(OnStart(cenas[Random.Range(0, 2)]));
+        StartCoroutine(OnStart(cenas[Random.Range(0, 3)]));
     }
 
     public IEnumerator OnStart(string cena)
