@@ -52,7 +52,7 @@ public class atirar2 : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.RightControl) && recarga && municao > 0.0f && cooldown <= 0.0f)
             {
-                Debug.Log("Atirou");
+                try {Debug.Log("Atirou");
                 clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
                 clone.tag = "tiro";
                 imagem.GetComponent<Animator>().SetBool("atirandop2", true);
@@ -60,7 +60,12 @@ public class atirar2 : MonoBehaviour
                 cooldown = 0.5f;
                 tiroP2 = true;
                 municaoText.text = municao.ToString();
-                audioSource.PlayOneShot(atirar_som);
+                audioSource.PlayOneShot(atirar_som); }
+
+                catch
+                {
+                }
+                
             }
 
 
