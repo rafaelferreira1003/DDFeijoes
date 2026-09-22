@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class atirar : MonoBehaviour
 {
@@ -34,6 +35,10 @@ public class atirar : MonoBehaviour
         }
         catch
         {
+        } 
+        if (SceneManager.GetActiveScene().name == ("Tutorial"))
+        {
+          municao = 99999999999999999999.0f;
         }
 
     }
@@ -79,21 +84,34 @@ public class atirar : MonoBehaviour
                 tempo += Time.deltaTime;
                 if (tempo >= tempoParaRecarga)
                 {
-                    tempo = 0.0f;
-                    aconteceu = false;
-                    recarga = true;
-                    municao = 5.0f;
-                    municaoText.text = municao.ToString();
-                    audioSource.PlayOneShot(recarga_som);
+                    try 
+                    {
+                        tempo = 0.0f;
+                        aconteceu = false;
+                        recarga = true;
+                        municao = 5.0f;
+                        municaoText.text = municao.ToString();
+                        audioSource.PlayOneShot(recarga_som);
+                    }
+                    catch
+                    { 
+                    
+                    }
                 }
             }
 
 
             if (recarga && municao <= 0.0f)
             {
-                municao = 5.0f;
-                municaoText.text = municao.ToString();
-            }
+                 municao = 5.0f;
+                    municaoText.text = municao.ToString();
+              
+            }  
+            
+            
+                  
+                
+
 
             if (clone != null)
             {

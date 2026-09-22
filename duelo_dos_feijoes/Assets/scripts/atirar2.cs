@@ -3,6 +3,7 @@ using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class atirar2 : MonoBehaviour
 {
@@ -35,7 +36,11 @@ public class atirar2 : MonoBehaviour
         catch
         {
         }
-      
+        if (SceneManager.GetActiveScene().name == ("Tutorial"))
+        {
+            municao = 99999999999999999999.0f;
+        }
+
     }
 
 
