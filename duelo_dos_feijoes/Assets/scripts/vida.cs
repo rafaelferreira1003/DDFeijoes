@@ -24,7 +24,9 @@ public class vida : MonoBehaviour
 
     void Start()
     {
-        UpdateVidaUI();
+        UpdateVidaUI(); 
+        
+       
     }
     void Update()
     {
