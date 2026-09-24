@@ -6577,12 +6577,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888318498}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.24, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.28720117, y: -2.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1209190073}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890170359
 GameObject:
@@ -18463,6 +18463,7 @@ GameObject:
   - component: {fileID: 1209190072}
   - component: {fileID: 1209190071}
   - component: {fileID: 1209190074}
+  - component: {fileID: 1209190077}
   - component: {fileID: 1209190076}
   - component: {fileID: 1209190075}
   m_Layer: 0
@@ -18564,9 +18565,7 @@ Transform:
   m_LocalPosition: {x: -0.28720117, y: -0.23303679, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1480494460}
-  - {fileID: 888318499}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1209190074
@@ -18581,9 +18580,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e8ccd5a00453c947aeba872d11ddf88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dummy
-  velocidade: 1
-  min_pos: {fileID: 1480494460}
+  velocidade: 3
   max_pos: {fileID: 888318499}
+  min_pos: {fileID: 1480494460}
   move_up: 1
   move_down: 0
 --- !u!61 &1209190075
@@ -18620,7 +18619,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.35498485, y: -0.3082763}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -18630,7 +18629,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.28, y: 2.36}
+  m_Size: {x: 1.0842617, y: 1.7434473}
   m_EdgeRadius: 0
 --- !u!50 &1209190076
 Rigidbody2D:
@@ -18658,7 +18657,21 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1209190077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209190070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e001fa5d0e29d41a067a6b4575c494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::dano_dummy
+  dano: 1
+  vida: {fileID: 897693382}
 --- !u!1 &1263459955
 GameObject:
   m_ObjectHideFlags: 0
@@ -21014,12 +21027,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480494459}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.16, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.28720117, y: 1.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1209190073}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1481283510
 GameObject:
@@ -24480,4 +24493,6 @@ SceneRoots:
   - {fileID: 1544050088}
   - {fileID: 804749721}
   - {fileID: 339454469}
+  - {fileID: 888318499}
+  - {fileID: 1480494460}
   - {fileID: 1209190073}
