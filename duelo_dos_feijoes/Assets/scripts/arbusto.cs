@@ -21,6 +21,7 @@ public class arbusto : MonoBehaviour
             spawnInterval = Random.Range(2f, 3.5f);
             float randomy = Random.Range(minpos.position.y, maxpos.position.y);
             Instantiate(arbustoPrefab, new Vector2(transform.position.x, randomy), Quaternion.identity);
+            
         }
         else
         {

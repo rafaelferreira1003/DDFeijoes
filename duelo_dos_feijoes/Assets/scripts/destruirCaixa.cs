@@ -15,10 +15,18 @@ public class destruirCaixa : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Colidiu com: " + other.gameObject.name);
         if (other.CompareTag ("tiro"))
         {
-            vida = vida - dano;
             Destroy(other.gameObject);
+            levarDano();
+        }
+       
+    }
+    public void levarDano()
+    {
+        vida = vida - dano;
+            
             if (vida < 0)
             {GetComponent<Animator>().SetBool("destruir_caixa", true);
                 GetComponent<BoxCollider2D>().enabled = false;
@@ -29,7 +37,6 @@ public class destruirCaixa : MonoBehaviour
             else {
                 GetComponent<Animator>().SetBool("dano_caixa", true);
             }
-
-        }
     }
+
 }

@@ -8,6 +8,8 @@ TagManager:
   - tiro
   - Parede
   - tiro2
+  - arbusto
+  - caixa
   layers:
   - Default
   - TransparentFX

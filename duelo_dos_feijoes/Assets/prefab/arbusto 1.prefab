@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -7272987533142782481}
   - component: {fileID: 3791594592762797909}
   m_Layer: 0
-  m_Name: arbusto
+  m_Name: arbusto 1
   m_TagString: tiro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5b7dec72fd61c43a0366de50982de5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::arbusto_mov
-  velocidade: 2
+  velocidade: -2
   vida: {fileID: 0}
 --- !u!61 &-7272987533142782481
 BoxCollider2D:
