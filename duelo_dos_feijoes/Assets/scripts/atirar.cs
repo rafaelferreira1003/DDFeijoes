@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class atirar : MonoBehaviour
 {
     public float tempo = 0.0f;
-    float municao = 5.0f;
+    public float municao = 5.0f;
     public bool recarga = true;
     public float cooldown = 0.5f;
     public bool aconteceu = false;
@@ -63,7 +63,7 @@ public class atirar : MonoBehaviour
                     municao -= 1.0f;
                     cooldown = 0.5f;
                     tiroP1 = true;
-                    municaoText.text = municao.ToString();
+                    updateAmmoUI();
                     audioSource.PlayOneShot(atirar_som);
                 }
                 catch
@@ -118,5 +118,10 @@ public class atirar : MonoBehaviour
                 clone.transform.Translate(new Vector3(0, movimento_y, 0) * velocidade * Time.deltaTime);
             }
         }
+    }
+
+    public void updateAmmoUI()
+    {
+        municaoText.text = municao.ToString();
     }
 }

@@ -64,8 +64,8 @@ public class atirar2 : MonoBehaviour
                 municao -= 1.0f;
                 cooldown = 0.5f;
                 tiroP2 = true;
-                municaoText.text = municao.ToString();
-                audioSource.PlayOneShot(atirar_som); }
+                updateAmmoUI();
+                    audioSource.PlayOneShot(atirar_som); }
 
                 catch
                 {
@@ -108,5 +108,9 @@ public class atirar2 : MonoBehaviour
                 clone.transform.Translate(new Vector3(0, movimento_y, 0) * velocidade * Time.deltaTime);
             }
         }
+    }
+    public void updateAmmoUI()
+    {
+        municaoText.text = municao.ToString();
     }
 }
