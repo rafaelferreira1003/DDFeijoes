@@ -142,12 +142,12 @@ TextureImporter:
       name: ESC_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 383
-        width: 768
-        height: 487
+        x: 338
+        y: 408
+        width: 371
+        height: 226
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3cfe33abb2393e245b8f7b3239629138
     internalID: 0
     vertices: []
     indices: 
