@@ -2369,7 +2369,7 @@ MonoBehaviour:
   tempo: 0
   municao: 5
   recarga: 1
-  cooldown: 0
+  cooldown: 1
   aconteceu: 0
   tempoParaRecarga: 5
   tiro: {fileID: 125182664}

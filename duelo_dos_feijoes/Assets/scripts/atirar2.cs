@@ -111,6 +111,13 @@ public class atirar2 : MonoBehaviour
     }
     public void updateAmmoUI()
     {
-        municaoText.text = municao.ToString();
+        try
+        {
+            municaoText.text = municao.ToString();
+        }
+        catch
+        {
+        }
+      
     }
 }
