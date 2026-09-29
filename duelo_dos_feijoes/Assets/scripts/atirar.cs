@@ -35,10 +35,10 @@ public class atirar : MonoBehaviour
         }
         catch
         {
-        } 
+        }
         if (SceneManager.GetActiveScene().name == ("Tutorial"))
         {
-          municao = 99999999999999999999.0f;
+            municao = 99999999999999999999.0f;
         }
 
     }
@@ -84,7 +84,7 @@ public class atirar : MonoBehaviour
                 tempo += Time.deltaTime;
                 if (tempo >= tempoParaRecarga)
                 {
-                    try 
+                    try
                     {
                         tempo = 0.0f;
                         aconteceu = false;
@@ -94,8 +94,8 @@ public class atirar : MonoBehaviour
                         audioSource.PlayOneShot(recarga_som);
                     }
                     catch
-                    { 
-                    
+                    {
+
                     }
                 }
             }
@@ -103,15 +103,10 @@ public class atirar : MonoBehaviour
 
             if (recarga && municao <= 0.0f)
             {
-                 municao = 5.0f;
-                    municaoText.text = municao.ToString();
-              
-            }  
-            
-            
-                  
-                
+                municao = 5.0f;
+                municaoText.text = municao.ToString();
 
+            }
 
             if (clone != null)
             {
@@ -122,6 +117,9 @@ public class atirar : MonoBehaviour
 
     public void updateAmmoUI()
     {
-        municaoText.text = municao.ToString();
+        try { municaoText.text = municao.ToString(); }
+        catch
+        {
+        }
     }
 }

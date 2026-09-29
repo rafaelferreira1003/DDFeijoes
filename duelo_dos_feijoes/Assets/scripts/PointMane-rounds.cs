@@ -23,12 +23,12 @@ public class PointMane : MonoBehaviour
         {
             if (player1Points > player2Points && !vitoria_ocorreu)
             {
-               SceneManager.LoadScene("Vitória");
+               SceneManager.LoadScene("Vitória_1");
                 vitoria_ocorreu = true;
             }
             else if (player2Points > player1Points && !vitoria_ocorreu)
             {
-                SceneManager.LoadScene("Vitória_1");
+                SceneManager.LoadScene("Vitória");
                 vitoria_ocorreu = true;
             }
         }
