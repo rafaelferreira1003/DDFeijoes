@@ -10,6 +10,8 @@ TagManager:
   - tiro2
   - arbusto
   - caixa
+  - PointMane
+  - transition
   layers:
   - Default
   - TransparentFX

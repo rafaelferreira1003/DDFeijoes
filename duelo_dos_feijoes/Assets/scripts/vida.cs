@@ -1,4 +1,6 @@
 
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +14,7 @@ public class vida : MonoBehaviour
     [SerializeField] TMPro.TMP_Text vidap2Text;
     public SpriteRenderer player1;
     public SpriteRenderer player2;
+    public PointMane pointmaneger;
     public float cooldown = 0.5f;
     public float tempo = 0f;
     public float animacao_dano_tempoP1 = 0f;
@@ -20,13 +23,14 @@ public class vida : MonoBehaviour
     public bool animacao_danoP2 = false;
     public GameObject transition;
     public bool som_tocando = false;
+    public bool rodar_random = true;
     public Scene Tutorial;
 
     void Start()
     {
         UpdateVidaUI(); 
-        
-       
+        pointmaneger = GameObject.FindWithTag("PointMane").GetComponent<PointMane>();
+
     }
     void Update()
     {
@@ -75,9 +79,9 @@ public class vida : MonoBehaviour
             }
         }
 
-      
-
     }
+
+
     public void UpdateVidaUI()
     {
         try
@@ -91,17 +95,26 @@ public class vida : MonoBehaviour
     }
     public void mudar_cena()
     {
-        if (tempo >= cooldown)
+
+        if (tempo >= cooldown && rodar_random)
         {
             if (player1morto == true)
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Vitória");
+                pointmaneger.player2Points++;
+
             }
             else if (player2morto == true)
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Vitória_1");
+                pointmaneger.player1Points++;
+               
             }
+           
+            StartCoroutine(pointmaneger.OnStart());
+            rodar_random = false;
+            
+          
         }
+
 
         if (tempo >= cooldown / 2.0f)
         {

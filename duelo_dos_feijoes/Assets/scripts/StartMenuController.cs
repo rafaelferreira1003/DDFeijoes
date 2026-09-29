@@ -11,10 +11,6 @@ public class StartMenuController : MonoBehaviour
 
     List<string> cenas = new List<string> { "game", "Mapa2", "Mapa3"};
 
-    void Start()
-    {
-     
-    }
     public void OnStartClick()
     {
         StartCoroutine(OnStart(cenas[Random.Range(0, 3)]));
