@@ -4172,6 +4172,7 @@ MonoBehaviour:
   vidap2Text: {fileID: 0}
   player1: {fileID: 691520499}
   player2: {fileID: 363390336}
+  pointmaneger: {fileID: 0}
   cooldown: 2
   tempo: 0
   animacao_dano_tempoP1: 0
@@ -4180,6 +4181,7 @@ MonoBehaviour:
   animacao_danoP2: 0
   transition: {fileID: 1600056519}
   som_tocando: 0
+  rodar_random: 1
   Tutorial:
     m_Handle: 0
 --- !u!212 &897693384
@@ -6001,7 +6003,7 @@ GameObject:
   - component: {fileID: 1600056520}
   m_Layer: 5
   m_Name: Canvas (2)
-  m_TagString: Untagged
+  m_TagString: transition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
