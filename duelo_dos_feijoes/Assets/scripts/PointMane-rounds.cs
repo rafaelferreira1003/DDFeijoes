@@ -8,7 +8,7 @@ public class PointMane : MonoBehaviour
     public int player1Points;
     public int player2Points;
     public int rounds;
-    public List<string> cenas = new List<string> { "game", "Mapa2", "Mapa3" };
+    public List<string> cenas = new List<string> { "game", "Mapa2", "Mapa3", "Mapa4" };
     public GameObject transition;
     public bool vitoria_ocorreu = false;
 
@@ -53,7 +53,7 @@ public class PointMane : MonoBehaviour
         rounds++;
         yield return new WaitForSeconds(1.4f);
         {
-            SceneManager.LoadScene(cenas[Random.Range(0, 3)]);
+            SceneManager.LoadScene(cenas[Random.Range(0, 4)]);
 
         }
     }
