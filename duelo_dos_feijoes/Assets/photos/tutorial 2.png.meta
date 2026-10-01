@@ -1,19 +1,55 @@
 fileFormatVersion: 2
-guid: c4bd8ecb52a198346a20b921c8ff96de
+guid: 8bb16c0eb6efba245af9c4da356a068d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6208176927266180224
-    second: Play_0
+      213: 946955376065915613
+    second: tutorial 2_0
   - first:
-      213: 434674283716880328
-    second: Play_1
+      213: -724216962698497785
+    second: tutorial 2_1
   - first:
-      213: 6233243470654288490
-    second: Play_2
+      213: 4580022706213379711
+    second: tutorial 2_2
   - first:
-      213: -902394926370334936
-    second: Play_3
+      213: 3382589621473805274
+    second: tutorial 2_3
+  - first:
+      213: -4818377241428246617
+    second: tutorial 2_4
+  - first:
+      213: 8259354333662240809
+    second: tutorial 2_5
+  - first:
+      213: -5957252806664973408
+    second: tutorial 2_6
+  - first:
+      213: 6610088488123701707
+    second: tutorial 2_7
+  - first:
+      213: 1921169821740872128
+    second: tutorial 2_8
+  - first:
+      213: -5003204989148337890
+    second: tutorial 2_9
+  - first:
+      213: -2109919904000670476
+    second: tutorial 2_10
+  - first:
+      213: -4360271721610574548
+    second: tutorial 2_11
+  - first:
+      213: -8238401829902463214
+    second: tutorial 2_12
+  - first:
+      213: -293553365223760081
+    second: tutorial 2_13
+  - first:
+      213: 3262051972557969234
+    second: tutorial 2_14
+  - first:
+      213: 7917872542174512702
+    second: tutorial 2_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,13 +184,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Play_3
+      name: tutorial 2_6
       rect:
         serializedVersion: 2
-        x: 36
-        y: 144
-        width: 2097
-        height: 838
+        x: 12
+        y: 3
+        width: 1951
+        height: 483
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +199,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 827d496789c0a73f0800000000000000
-      internalID: -902394926370334936
+      spriteID: 0a3198d9226935da0800000000000000
+      internalID: -5957252806664973408
       vertices: []
       indices: 
       edges: []
@@ -173,7 +209,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 552c2191d3b01024290e37e037c93cc0
+    spriteID: 9eee08b921916224a9af30f74b9c4935
     internalID: 0
     vertices: []
     indices: 
@@ -183,10 +219,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Play_0: 6208176927266180224
-      Play_1: 434674283716880328
-      Play_2: 6233243470654288490
-      Play_3: -902394926370334936
+      tutorial 2_0: 946955376065915613
+      tutorial 2_1: -724216962698497785
+      tutorial 2_10: -2109919904000670476
+      tutorial 2_11: -4360271721610574548
+      tutorial 2_12: -8238401829902463214
+      tutorial 2_13: -293553365223760081
+      tutorial 2_14: 3262051972557969234
+      tutorial 2_15: 7917872542174512702
+      tutorial 2_2: 4580022706213379711
+      tutorial 2_3: 3382589621473805274
+      tutorial 2_4: -4818377241428246617
+      tutorial 2_5: 8259354333662240809
+      tutorial 2_6: -5957252806664973408
+      tutorial 2_7: 6610088488123701707
+      tutorial 2_8: 1921169821740872128
+      tutorial 2_9: -5003204989148337890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

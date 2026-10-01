@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: c4bd8ecb52a198346a20b921c8ff96de
+guid: 5279d142a5fc74f4491d6e441ff0c0ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6208176927266180224
-    second: Play_0
+      213: -1922979618149193216
+    second: Exit_0
   - first:
-      213: 434674283716880328
-    second: Play_1
+      213: -3985504364236080531
+    second: Exit_1
   - first:
-      213: 6233243470654288490
-    second: Play_2
+      213: 2395068827286887499
+    second: Exit_2
   - first:
-      213: -902394926370334936
-    second: Play_3
+      213: -6183858994869084236
+    second: Exit_3
+  - first:
+      213: -2561830481542524706
+    second: Exit_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Play_3
+      name: Exit_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 144
-        width: 2097
-        height: 838
+        x: 281
+        y: 60
+        width: 2613
+        height: 969
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 827d496789c0a73f0800000000000000
-      internalID: -902394926370334936
+      spriteID: 00aa6e5c9343055e0800000000000000
+      internalID: -1922979618149193216
       vertices: []
       indices: 
       edges: []
@@ -173,7 +176,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 552c2191d3b01024290e37e037c93cc0
+    spriteID: c7ff862e1b8038e4f93f3cd3f65d68ee
     internalID: 0
     vertices: []
     indices: 
@@ -183,10 +186,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Play_0: 6208176927266180224
-      Play_1: 434674283716880328
-      Play_2: 6233243470654288490
-      Play_3: -902394926370334936
+      Exit_0: -1922979618149193216
+      Exit_1: -3985504364236080531
+      Exit_2: 2395068827286887499
+      Exit_3: -6183858994869084236
+      Exit_4: -2561830481542524706
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
