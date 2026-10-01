@@ -101,12 +101,14 @@ public class vida : MonoBehaviour
             if (player1morto == true)
             {
                 pointmaneger.player2Points++;
+               
 
             }
             else if (player2morto == true)
             {
                 pointmaneger.player1Points++;
                
+
             }
            
             StartCoroutine(pointmaneger.OnStart());

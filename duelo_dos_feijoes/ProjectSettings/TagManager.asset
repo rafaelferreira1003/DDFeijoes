@@ -12,6 +12,8 @@ TagManager:
   - caixa
   - PointMane
   - transition
+  - pontos_p1
+  - pontos_p2
   layers:
   - Default
   - TransparentFX
