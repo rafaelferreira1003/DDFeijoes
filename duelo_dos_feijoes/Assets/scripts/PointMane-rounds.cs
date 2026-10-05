@@ -49,7 +49,7 @@ public class PointMane : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().name == "menu")
+        if (SceneManager.GetActiveScene().name == "menu" || SceneManager.GetActiveScene().name == "Vitória" || SceneManager.GetActiveScene().name == "Vitória_1")
         {
             player1Points = 0;
             player2Points = 0;

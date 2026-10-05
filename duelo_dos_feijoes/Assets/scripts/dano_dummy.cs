@@ -16,13 +16,13 @@ public class dano_dummy : MonoBehaviour
             vida.GetComponent<vida>().UpdateVidaUI();
             vida.GetComponent<vida>().animacao_danoP1 = true;
         }
-        else if (collision.gameObject.CompareTag("Player2"))
+        else if (collision.gameObject.CompareTag("player2"))
         {
             vida.GetComponent<vida>().player2life -= dano;
             vida.GetComponent<vida>().UpdateVidaUI();
             vida.GetComponent<vida>().animacao_danoP2 = true;
         }
-        else if (collision.gameObject.CompareTag("Bullet"))
+        else if (collision.gameObject.CompareTag("Tiro"))
         {
            Parar();
             Destroy(collision.gameObject);
