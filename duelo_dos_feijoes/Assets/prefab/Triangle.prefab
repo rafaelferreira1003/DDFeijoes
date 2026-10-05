@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 5104807663198449505}
   - component: {fileID: 6190226901178339126}
   - component: {fileID: 4197107502791292552}
+  - component: {fileID: 399204835691320656}
   m_Layer: 5
   m_Name: Canvas (1)
   m_TagString: Untagged
@@ -333,7 +334,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -359304393
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &6190226901178339126
 MonoBehaviour:
@@ -375,6 +376,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &399204835691320656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8905067858340416546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6013a659ab7a3942b261ccf86459361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::gerenciar_camera
+  canvas: {fileID: 5104807663198449505}
 --- !u!1 &9154110123201448208
 GameObject:
   m_ObjectHideFlags: 0
