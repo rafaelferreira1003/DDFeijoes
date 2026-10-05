@@ -1146,6 +1146,7 @@ GameObject:
   - component: {fileID: 515094003}
   - component: {fileID: 515094002}
   - component: {fileID: 515094001}
+  - component: {fileID: 515094006}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: transition
@@ -1253,6 +1254,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &515094006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515094000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3bf0d345d9aa384cb7ef4bd3ed6df6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::spawnar_gerenciador_de_pontos
+  gerenciador_de_pontos_prefab: {fileID: 6353715459358891685, guid: 03fa97fce36c93f4d81967e69d3c80fe, type: 3}
+  PointMane: {fileID: 0}
 --- !u!1 &538158083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,62 +1570,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616252596}
   m_CullTransparentMesh: 1
---- !u!1 &624423416
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 624423418}
-  - component: {fileID: 624423417}
-  m_Layer: 0
-  m_Name: PointMane
-  m_TagString: PointMane
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &624423417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624423416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab18e6133f57100438894c155669e0f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PointMane
-  player1Points: 0
-  player2Points: 0
-  rounds: 0
-  cenas:
-  - game
-  - Mapa2
-  - Mapa3
-  - Mapa4
-  transition: {fileID: 0}
-  vitoria_ocorreu: 0
-  pontos_p1: {fileID: 0}
-  pontos_p2: {fileID: 0}
---- !u!4 &624423418
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624423416}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.50896, y: 0.95715, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &640437017
 GameObject:
   m_ObjectHideFlags: 0
@@ -3079,5 +3038,4 @@ SceneRoots:
   - {fileID: 735195261}
   - {fileID: 16319020}
   - {fileID: 967595569}
-  - {fileID: 624423418}
   - {fileID: 538158084}
