@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class tutorial : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public int tutorialStage = 0;
+    public GameObject GameObject;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         

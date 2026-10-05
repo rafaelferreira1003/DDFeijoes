@@ -15,13 +15,26 @@ public class PointMane : MonoBehaviour
     public bool vitoria_ocorreu = false;
     [SerializeField] TMPro.TMP_Text pontos_p1;
     [SerializeField] TMPro.TMP_Text pontos_p2;
+    [SerializeField] GameObject nao_apagar;
+   
+    public string cena_atual;
+
+
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
-        
+        DontDestroyOnLoad(nao_apagar);
+        nao_apagar.tag = "nao_apagar";
     }
+    private void Start()
+    {
+        pontos_p1 = GameObject.FindWithTag("pontos_p1").GetComponent<TMP_Text>();
+        pontos_p2 = GameObject.FindWithTag("pontos_p2").GetComponent<TMP_Text>();
+    }
+
     public void Update()
     {
+        cena_atual = SceneManager.GetActiveScene().name;
         if (rounds >= 5 || player1Points > 2 || player2Points > 2)
         {
             if (player1Points > player2Points && !vitoria_ocorreu)
@@ -42,24 +55,18 @@ public class PointMane : MonoBehaviour
             player2Points = 0;
             rounds = 0;
             vitoria_ocorreu = false;
+            pontos_p1.text = "";
+            pontos_p2.text = "";
         }
 
         if (transition == null)
         {
             transition = GameObject.FindWithTag("transition");
         }
-        if (SceneManager.GetActiveScene().name != "menu" && SceneManager.GetActiveScene().name != "tutorial")
+        if (cenas.Contains(cena_atual))
         {
-            if (pontos_p1 == null)
-            {
-                pontos_p1 = GameObject.FindWithTag("pontos_p1").GetComponent<TMP_Text>();
-            }
-            if (pontos_p2 == null)
-            {
-                pontos_p2 = GameObject.FindWithTag("pontos_p2").GetComponent<TMP_Text>();
-            }
-            pontos_p1.text = player1Points.ToString();
-            pontos_p2.text = player2Points.ToString();
+            pontos_p1.text = player2Points.ToString();
+            pontos_p2.text = player1Points.ToString();
         }
         
     }
