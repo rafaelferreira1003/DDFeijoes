@@ -2669,7 +2669,7 @@ GameObject:
   - component: {fileID: 554020653}
   - component: {fileID: 554020652}
   - component: {fileID: 554020651}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: cartucho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2727,7 +2727,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.14, y: 2.64}
+    oldSize: {x: 1.63, y: 1.17}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2779,8 +2779,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2094802789
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 955773104169781633, guid: 7527ceb6bd9e58d4da19f067bee595d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7767,7 +7767,7 @@ GameObject:
   - component: {fileID: 1982563187}
   - component: {fileID: 1982563186}
   - component: {fileID: 1982563185}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: medkit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7826,7 +7826,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.59, y: 1.37}
+    oldSize: {x: 1.49, y: 2.22}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7878,8 +7878,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2094802789
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1166566215311798989, guid: 91c6412fb9821324ca5b087cc77defde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7901,8 +7901,8 @@ Transform:
   m_GameObject: {fileID: 1982563184}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5507, y: -4.6424, z: 0}
-  m_LocalScale: {x: 0.3953, y: 0.4417, z: 1}
+  m_LocalPosition: {x: -9.6458, y: -4.8473, z: 0}
+  m_LocalScale: {x: 0.2676181, y: 0.25711358, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
