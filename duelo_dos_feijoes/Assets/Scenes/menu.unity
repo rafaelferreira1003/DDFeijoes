@@ -1267,7 +1267,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::spawnar_gerenciador_de_pontos
   gerenciador_de_pontos_prefab: {fileID: 6353715459358891685, guid: 03fa97fce36c93f4d81967e69d3c80fe, type: 3}
+  som_prefab: {fileID: 6170920833686884692, guid: 7961ceda32d8d32459ec5c4e6d4a5990, type: 3}
   PointMane: {fileID: 0}
+  som: {fileID: 0}
 --- !u!1 &538158083
 GameObject:
   m_ObjectHideFlags: 0

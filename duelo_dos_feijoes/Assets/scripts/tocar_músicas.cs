@@ -9,12 +9,12 @@ public class tocar_músicas : MonoBehaviour
     public AudioClip som_de_morte;
     public AudioClip música_do_jogo;
     public bool somTocado = false;
+    public bool comecar_musica = false;
 
     void Start()
     {
         DontDestroyOnLoad(gameObject);
         audioSource = GetComponent<AudioSource>();
-        audioSource.clip = música_do_jogo;
         audioSource.Play();
 
     }
@@ -24,27 +24,31 @@ public class tocar_músicas : MonoBehaviour
     void Update()
     {
 
-        try
-        {
-            Vida = GameObject.Find("vida");
-            if (Vida.GetComponent<vida>().player1morto || Vida.GetComponent<vida>().player2morto && somTocado == false)
+        
+           
+            if (SceneManager.GetActiveScene().name == "Vitória" || SceneManager.GetActiveScene().name == "Vitória_1" && somTocado == false)
             {
 
-                audioSource.PlayOneShot(som_de_morte);
                 audioSource.PlayOneShot(som_de_vitoria);
                 somTocado = true;
             }
 
             
-        } catch (System.Exception)
-        {
-
-
-        }
-        if (SceneManager.GetActiveScene().name == "menu")
+       
+        if (SceneManager.GetActiveScene().name == "menu" || SceneManager.GetActiveScene().name == "creditos")
         {
             somTocado = false;
-            Destroy(gameObject);
+            audioSource.Stop();
+            comecar_musica = false;
         }
+        else if (comecar_musica == false)
+        {
+          
+                audioSource.clip = música_do_jogo;
+                audioSource.Play();
+                comecar_musica = true;
+
+        }
+
     }
 }
