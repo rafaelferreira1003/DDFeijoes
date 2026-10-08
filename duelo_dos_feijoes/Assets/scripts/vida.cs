@@ -29,7 +29,13 @@ public class vida : MonoBehaviour
     void Start()
     {
         UpdateVidaUI(); 
-        pointmaneger = GameObject.FindWithTag("PointMane").GetComponent<PointMane>();
+        try
+        {
+            pointmaneger = GameObject.FindWithTag("PointMane").GetComponent<PointMane>();
+        }
+        catch
+        { }
+       
 
     }
     void Update()
