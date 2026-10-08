@@ -11,10 +11,10 @@ public class rotacao_armap1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        angle = Mathf.RoundToInt(parentTransform.rotation.z);
+        angle = parentTransform.eulerAngles.z;
 
   
-        if (angle < 1)
+        if (angle > 160 || angle < -90 )
         {
             spriteRenderer.flipX = true;
 

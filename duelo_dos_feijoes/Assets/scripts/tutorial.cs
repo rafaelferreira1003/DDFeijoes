@@ -4,10 +4,8 @@ public class tutorial : MonoBehaviour
 {
     public int tutorialStage_p1 = 0;
     public int tutorialStage_p2 = 0;
-    public GameObject player_1;
-    public GameObject player_2;
-    public TMPro.TextMeshPro tutorialText_p1;
-    public TMPro.TextMeshPro tutorialText_p2;
+    public TMPro.TMP_Text tutorialText_p1;
+    public TMPro.TMP_Text tutorialText_p2;
     void Start()
     {
         tutorialText_p1.text = "precione w ou s para se mover para frente e trás";
@@ -29,12 +27,12 @@ public class tutorial : MonoBehaviour
             if (Input.GetAxisRaw("Horizontal") != 0)
             {
                 tutorialStage_p1 = 2;
-                tutorialText_p1.text = "precione espaço para atirar";
+                tutorialText_p1.text = "precione g para atirar";
             }
         }
         else if (tutorialStage_p1 == 2)
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetKeyDown(KeyCode.G))
             {
                 tutorialStage_p1 = 3;
                 tutorialText_p1.text = "tutorial completo";
@@ -54,7 +52,7 @@ public class tutorial : MonoBehaviour
             if (Input.GetAxisRaw("Horizontal2") != 0)
             {
                 tutorialStage_p2 = 2;
-                tutorialText_p2.text = "precione enter para atirar";
+                tutorialText_p2.text = "precione Ctrl para atirar";
             }
         }
         else if (tutorialStage_p2 == 2)
