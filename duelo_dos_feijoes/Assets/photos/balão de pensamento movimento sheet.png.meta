@@ -1,79 +1,55 @@
 fileFormatVersion: 2
-guid: f5073422327a2d44dacf06cabb246643
+guid: f2f91b0c94e582045aab09380c831b4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2616190375895586881
-    second: "bal\xE3o de pensamento sheet_0"
+      213: 54595899724143175
+    second: "bal\xE3o de pensamento movimento sheet_0"
   - first:
-      213: -3579248334372732080
-    second: "bal\xE3o de pensamento sheet_1"
+      213: 2974956079594593414
+    second: "bal\xE3o de pensamento movimento sheet_1"
   - first:
-      213: -300866512798435185
-    second: "bal\xE3o de pensamento sheet_2"
+      213: -3668606777635980406
+    second: "bal\xE3o de pensamento movimento sheet_2"
   - first:
-      213: -9133861578912707277
-    second: "bal\xE3o de pensamento sheet_3"
+      213: 5930037972053794241
+    second: "bal\xE3o de pensamento movimento sheet_3"
   - first:
-      213: -2491885524759751971
-    second: "bal\xE3o de pensamento sheet_4"
+      213: -2555168591327193517
+    second: "bal\xE3o de pensamento movimento sheet_4"
   - first:
-      213: -1407268511346587575
-    second: "bal\xE3o de pensamento sheet_5"
+      213: 4621076975296450952
+    second: "bal\xE3o de pensamento movimento sheet_5"
   - first:
-      213: -4378717334239549958
-    second: "bal\xE3o de pensamento sheet_6"
+      213: 851761439865160706
+    second: "bal\xE3o de pensamento movimento sheet_6"
   - first:
-      213: -3064575489866550260
-    second: "bal\xE3o de pensamento sheet_7"
+      213: -6384922390508637289
+    second: "bal\xE3o de pensamento movimento sheet_7"
   - first:
-      213: -4520087602774322336
-    second: "bal\xE3o de pensamento sheet_8"
+      213: -6588468133714044637
+    second: "bal\xE3o de pensamento movimento sheet_8"
   - first:
-      213: -6086587480802746506
-    second: "bal\xE3o de pensamento sheet_9"
+      213: 9024196930840649298
+    second: "bal\xE3o de pensamento movimento sheet_9"
   - first:
-      213: -6258999819709859583
-    second: "bal\xE3o de pensamento sheet_10"
+      213: 194811621974380140
+    second: "bal\xE3o de pensamento movimento sheet_10"
   - first:
-      213: -93855010354821967
-    second: "bal\xE3o de pensamento sheet_11"
+      213: 1928320095271424205
+    second: "bal\xE3o de pensamento movimento sheet_11"
   - first:
-      213: 84698135783471929
-    second: "bal\xE3o de pensamento sheet_12"
+      213: 7461478277525409484
+    second: "bal\xE3o de pensamento movimento sheet_12"
   - first:
-      213: 5499507897695798295
-    second: "bal\xE3o de pensamento sheet_13"
+      213: 3925047258360481400
+    second: "bal\xE3o de pensamento movimento sheet_13"
   - first:
-      213: -4147936749692600637
-    second: "bal\xE3o de pensamento sheet_14"
+      213: 9069549393585425255
+    second: "bal\xE3o de pensamento movimento sheet_14"
   - first:
-      213: 3684042621782968898
-    second: "bal\xE3o de pensamento sheet_15"
-  - first:
-      213: 1254184917750802296
-    second: "bal\xE3o de pensamento sheet_16"
-  - first:
-      213: 2470075291073995025
-    second: "bal\xE3o de pensamento sheet_17"
-  - first:
-      213: 5985942445673264855
-    second: "bal\xE3o de pensamento sheet_18"
-  - first:
-      213: -2475274069270863819
-    second: "bal\xE3o de pensamento sheet_19"
-  - first:
-      213: 7195709505736253911
-    second: "bal\xE3o de pensamento sheet_20"
-  - first:
-      213: 2410438322794729456
-    second: "bal\xE3o de pensamento sheet_21"
-  - first:
-      213: 3434413393307223085
-    second: "bal\xE3o de pensamento sheet_22"
-  - first:
-      213: -6701802825078078376
-    second: "bal\xE3o de pensamento sheet_23"
+      213: 4731092326361821476
+    second: "bal\xE3o de pensamento movimento sheet_15"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -208,58 +184,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "bal\xE3o de pensamento sheet_0"
+      name: "bal\xE3o de pensamento movimento sheet_0"
       rect:
         serializedVersion: 2
-        x: 39
-        y: 920
-        width: 517
-        height: 439
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1485d0429439e4420800000000000000
-      internalID: 2616190375895586881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "bal\xE3o de pensamento sheet_1"
-      rect:
-        serializedVersion: 2
-        x: 604
-        y: 924
-        width: 518
+        x: 43
+        y: 0
+        width: 511
         height: 437
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61da9ee77508ff743a1b9c1d4cd894ba
-      internalID: -3579248334372732080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "bal\xE3o de pensamento sheet_2"
-      rect:
-        serializedVersion: 2
-        x: 1174
-        y: 926
-        width: 500
-        height: 435
-      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -267,86 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40f5b680abc67884e805aa70fa9b1566
-      internalID: -300866512798435185
+      spriteID: 364cf9b92cd2ab74ba021474a409c801
+      internalID: 54595899724143175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "bal\xE3o de pensamento sheet_3"
+      name: "bal\xE3o de pensamento movimento sheet_1"
       rect:
         serializedVersion: 2
-        x: 21
-        y: 456
-        width: 505
-        height: 420
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97f0c9fe8d646bd4aba847f54ca6a2e3
-      internalID: -9133861578912707277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "bal\xE3o de pensamento sheet_4"
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 454
-        width: 514
-        height: 423
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6b459054122eee49af32aa21f1e9e3d
-      internalID: -2491885524759751971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "bal\xE3o de pensamento sheet_5"
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 2
-        width: 507
-        height: 433
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 080ee1ce72a6aa841916d8a46e118528
-      internalID: -1407268511346587575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "bal\xE3o de pensamento sheet_6"
-      rect:
-        serializedVersion: 2
-        x: 574
+        x: 605
         y: 0
-        width: 513
-        height: 440
+        width: 508
+        height: 437
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,8 +221,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9f47d0d6394a784c9f2747b731c9198
-      internalID: -4378717334239549958
+      spriteID: b239168bb1ed2d54cb8b277ed5a0cad9
+      internalID: 2974956079594593414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento movimento sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 496
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d11c09e8268bcc4db3ced9a53a37428
+      internalID: -3668606777635980406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento movimento sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 0
+        width: 510
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ed51f1b79d0f84ca7218d6cb4c1568
+      internalID: 5930037972053794241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento movimento sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 504
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb7c8e3e7fe8144b326f006841a295
+      internalID: -2555168591327193517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento movimento sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 0
+        width: 505
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9494cb9e0c305ae4f8be8e2c7ec53bb9
+      internalID: 4621076975296450952
       vertices: []
       indices: 
       edges: []
@@ -365,7 +319,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 436be0799bb55464fb16ad1d6c9d40d4
+    spriteID: 8750c2a0cd75a3d4e988de155d02bb21
     internalID: 0
     vertices: []
     indices: 
@@ -375,30 +329,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "bal\xE3o de pensamento sheet_0": 2616190375895586881
-      "bal\xE3o de pensamento sheet_1": -3579248334372732080
-      "bal\xE3o de pensamento sheet_10": -6258999819709859583
-      "bal\xE3o de pensamento sheet_11": -93855010354821967
-      "bal\xE3o de pensamento sheet_12": 84698135783471929
-      "bal\xE3o de pensamento sheet_13": 5499507897695798295
-      "bal\xE3o de pensamento sheet_14": -4147936749692600637
-      "bal\xE3o de pensamento sheet_15": 3684042621782968898
-      "bal\xE3o de pensamento sheet_16": 1254184917750802296
-      "bal\xE3o de pensamento sheet_17": 2470075291073995025
-      "bal\xE3o de pensamento sheet_18": 5985942445673264855
-      "bal\xE3o de pensamento sheet_19": -2475274069270863819
-      "bal\xE3o de pensamento sheet_2": -300866512798435185
-      "bal\xE3o de pensamento sheet_20": 7195709505736253911
-      "bal\xE3o de pensamento sheet_21": 2410438322794729456
-      "bal\xE3o de pensamento sheet_22": 3434413393307223085
-      "bal\xE3o de pensamento sheet_23": -6701802825078078376
-      "bal\xE3o de pensamento sheet_3": -9133861578912707277
-      "bal\xE3o de pensamento sheet_4": -2491885524759751971
-      "bal\xE3o de pensamento sheet_5": -1407268511346587575
-      "bal\xE3o de pensamento sheet_6": -4378717334239549958
-      "bal\xE3o de pensamento sheet_7": -3064575489866550260
-      "bal\xE3o de pensamento sheet_8": -4520087602774322336
-      "bal\xE3o de pensamento sheet_9": -6086587480802746506
+      "bal\xE3o de pensamento movimento sheet_0": 54595899724143175
+      "bal\xE3o de pensamento movimento sheet_1": 2974956079594593414
+      "bal\xE3o de pensamento movimento sheet_10": 194811621974380140
+      "bal\xE3o de pensamento movimento sheet_11": 1928320095271424205
+      "bal\xE3o de pensamento movimento sheet_12": 7461478277525409484
+      "bal\xE3o de pensamento movimento sheet_13": 3925047258360481400
+      "bal\xE3o de pensamento movimento sheet_14": 9069549393585425255
+      "bal\xE3o de pensamento movimento sheet_15": 4731092326361821476
+      "bal\xE3o de pensamento movimento sheet_2": -3668606777635980406
+      "bal\xE3o de pensamento movimento sheet_3": 5930037972053794241
+      "bal\xE3o de pensamento movimento sheet_4": -2555168591327193517
+      "bal\xE3o de pensamento movimento sheet_5": 4621076975296450952
+      "bal\xE3o de pensamento movimento sheet_6": 851761439865160706
+      "bal\xE3o de pensamento movimento sheet_7": -6384922390508637289
+      "bal\xE3o de pensamento movimento sheet_8": -6588468133714044637
+      "bal\xE3o de pensamento movimento sheet_9": 9024196930840649298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

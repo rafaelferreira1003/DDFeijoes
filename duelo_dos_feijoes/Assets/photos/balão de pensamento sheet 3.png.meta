@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 0ebb05a98ea751043bb56231ec424fc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8716638953535430011
+    second: "bal\xE3o de pensamento sheet 3_0"
+  - first:
+      213: -9062334599872281201
+    second: "bal\xE3o de pensamento sheet 3_1"
+  - first:
+      213: -3853678255583508028
+    second: "bal\xE3o de pensamento sheet 3_2"
+  - first:
+      213: 6881073027994046110
+    second: "bal\xE3o de pensamento sheet 3_3"
+  - first:
+      213: -3857181961948960866
+    second: "bal\xE3o de pensamento sheet 3_4"
+  - first:
+      213: 6916018355458331292
+    second: "bal\xE3o de pensamento sheet 3_5"
+  - first:
+      213: 7420428564653635928
+    second: "bal\xE3o de pensamento sheet 3_6"
+  - first:
+      213: 8186063786703148311
+    second: "bal\xE3o de pensamento sheet 3_7"
+  - first:
+      213: 8167036697526892841
+    second: "bal\xE3o de pensamento sheet 3_8"
+  - first:
+      213: -3856708828286713156
+    second: "bal\xE3o de pensamento sheet 3_9"
+  - first:
+      213: 7303394784620725514
+    second: "bal\xE3o de pensamento sheet 3_10"
+  - first:
+      213: -6103799841026750992
+    second: "bal\xE3o de pensamento sheet 3_11"
+  - first:
+      213: -4911247129386186207
+    second: "bal\xE3o de pensamento sheet 3_12"
+  - first:
+      213: 2700780142076707772
+    second: "bal\xE3o de pensamento sheet 3_13"
+  - first:
+      213: 6988594305397115941
+    second: "bal\xE3o de pensamento sheet 3_14"
+  - first:
+      213: 6326252240895787293
+    second: "bal\xE3o de pensamento sheet 3_15"
+  - first:
+      213: -608739796608363690
+    second: "bal\xE3o de pensamento sheet 3_16"
+  - first:
+      213: 1493543474799629170
+    second: "bal\xE3o de pensamento sheet 3_17"
+  - first:
+      213: 4235447565739240923
+    second: "bal\xE3o de pensamento sheet 3_18"
+  - first:
+      213: -968040324970073380
+    second: "bal\xE3o de pensamento sheet 3_19"
+  - first:
+      213: -2897916551811085137
+    second: "bal\xE3o de pensamento sheet 3_20"
+  - first:
+      213: 4509060664051888828
+    second: "bal\xE3o de pensamento sheet 3_21"
+  - first:
+      213: -408439669084397582
+    second: "bal\xE3o de pensamento sheet 3_22"
+  - first:
+      213: 4528486886885050820
+    second: "bal\xE3o de pensamento sheet 3_23"
+  - first:
+      213: -8223075383021955232
+    second: "bal\xE3o de pensamento sheet 3_24"
+  - first:
+      213: 1441510921201850669
+    second: "bal\xE3o de pensamento sheet 3_25"
+  - first:
+      213: -4489781574476514708
+    second: "bal\xE3o de pensamento sheet 3_26"
+  - first:
+      213: 8768783284922949882
+    second: "bal\xE3o de pensamento sheet 3_27"
+  - first:
+      213: 1229122537240887681
+    second: "bal\xE3o de pensamento sheet 3_28"
+  - first:
+      213: 9099696575138881541
+    second: "bal\xE3o de pensamento sheet 3_29"
+  - first:
+      213: 338605054915138025
+    second: "bal\xE3o de pensamento sheet 3_30"
+  - first:
+      213: 7051754342354717626
+    second: "bal\xE3o de pensamento sheet 3_31"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_0"
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 923
+        width: 498
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ddfcc02f8b7f870800000000000000
+      internalID: 8716638953535430011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_2"
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 923
+        width: 499
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c94c415b0cf48ac0800000000000000
+      internalID: -3853678255583508028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_4"
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 929
+        width: 483
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97ecfb1179887ac0800000000000000
+      internalID: -3857181961948960866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_12"
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 461
+        width: 490
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a87c8b1ceb7dbb0800000000000000
+      internalID: -4911247129386186207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_14"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 459
+        width: 490
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c438c5e797cf060800000000000000
+      internalID: 6988594305397115941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_20"
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 482
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac439cff3888c7d0800000000000000
+      internalID: -2897916551811085137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_22"
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 4
+        width: 499
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffdb04f84ee45af0800000000000000
+      internalID: -408439669084397582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sheet 3_24"
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 9
+        width: 499
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06797b1c184c1ed80800000000000000
+      internalID: -8223075383021955232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 144cb13f5da1e194392ba66473a75f47
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "bal\xE3o de pensamento sheet 3_0": 8716638953535430011
+      "bal\xE3o de pensamento sheet 3_1": -9062334599872281201
+      "bal\xE3o de pensamento sheet 3_10": 7303394784620725514
+      "bal\xE3o de pensamento sheet 3_11": -6103799841026750992
+      "bal\xE3o de pensamento sheet 3_12": -4911247129386186207
+      "bal\xE3o de pensamento sheet 3_13": 2700780142076707772
+      "bal\xE3o de pensamento sheet 3_14": 6988594305397115941
+      "bal\xE3o de pensamento sheet 3_15": 6326252240895787293
+      "bal\xE3o de pensamento sheet 3_16": -608739796608363690
+      "bal\xE3o de pensamento sheet 3_17": 1493543474799629170
+      "bal\xE3o de pensamento sheet 3_18": 4235447565739240923
+      "bal\xE3o de pensamento sheet 3_19": -968040324970073380
+      "bal\xE3o de pensamento sheet 3_2": -3853678255583508028
+      "bal\xE3o de pensamento sheet 3_20": -2897916551811085137
+      "bal\xE3o de pensamento sheet 3_21": 4509060664051888828
+      "bal\xE3o de pensamento sheet 3_22": -408439669084397582
+      "bal\xE3o de pensamento sheet 3_23": 4528486886885050820
+      "bal\xE3o de pensamento sheet 3_24": -8223075383021955232
+      "bal\xE3o de pensamento sheet 3_25": 1441510921201850669
+      "bal\xE3o de pensamento sheet 3_26": -4489781574476514708
+      "bal\xE3o de pensamento sheet 3_27": 8768783284922949882
+      "bal\xE3o de pensamento sheet 3_28": 1229122537240887681
+      "bal\xE3o de pensamento sheet 3_29": 9099696575138881541
+      "bal\xE3o de pensamento sheet 3_3": 6881073027994046110
+      "bal\xE3o de pensamento sheet 3_30": 338605054915138025
+      "bal\xE3o de pensamento sheet 3_31": 7051754342354717626
+      "bal\xE3o de pensamento sheet 3_4": -3857181961948960866
+      "bal\xE3o de pensamento sheet 3_5": 6916018355458331292
+      "bal\xE3o de pensamento sheet 3_6": 7420428564653635928
+      "bal\xE3o de pensamento sheet 3_7": 8186063786703148311
+      "bal\xE3o de pensamento sheet 3_8": 8167036697526892841
+      "bal\xE3o de pensamento sheet 3_9": -3856708828286713156
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
