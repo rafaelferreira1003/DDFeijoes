@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class tutorial : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class tutorial : MonoBehaviour
     public bool passarParteTutorialp2 = false;
     List<string> cenas = new List<string> { "game", "Mapa2", "Mapa3" };
     public string cena;
-
+    public GameObject transition;
 
     void Start()
     {
@@ -94,7 +95,7 @@ public class tutorial : MonoBehaviour
     
     public IEnumerator passar_partep1()
     {
-       yield return new WaitForSeconds(2f);
+       yield return new WaitForSeconds(1.5f);
         {
          passarParteTutorialp1 = true;
         }
@@ -102,17 +103,21 @@ public class tutorial : MonoBehaviour
 
     public IEnumerator passar_partep2()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.5f);
         {
             passarParteTutorialp2 = true;
         }
     }
 
     public IEnumerator comecar_jogo()
-    {
-        yield return new WaitForSeconds(5f);
+    { 
+        yield return new WaitForSeconds(7.5f);
         {
-            
+            transition.GetComponent<Animator>().SetTrigger("transition");
+            yield return new WaitForSeconds(1.4f);
+            {
+                SceneManager.LoadScene(cena);
+            }
         }
     }
 }
