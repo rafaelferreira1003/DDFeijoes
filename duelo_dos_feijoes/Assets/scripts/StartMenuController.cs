@@ -16,12 +16,25 @@ public class StartMenuController : MonoBehaviour
         StartCoroutine(OnStart(cenas[Random.Range(0, 3)]));
     }
 
+    public void Start()
+    {
+        PlayerPrefs.Save();
+    }
+
     public IEnumerator OnStart(string cena)
-    { 
-        transition.GetComponent<Animator>().SetTrigger("transition");   
-         yield return new WaitForSeconds(1.4f);
+    {
+        transition.GetComponent<Animator>().SetTrigger("transition");
+        yield return new WaitForSeconds(1.4f);
         {
-            SceneManager.LoadScene(cena);
+            if (PlayerPrefs.GetInt("tutorial") == 0)
+            {
+                SceneManager.LoadScene("Tutorial");
+                PlayerPrefs.SetInt("tutorial", 1);
+            }
+            else
+            {
+                SceneManager.LoadScene(cena);
+            }
         }
     }
 
