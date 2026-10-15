@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: 5dd738fa46e1c7d41b7238fa7b381dff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2542395102096842757
+    second: "bal\xE3o de pensamento sumindo_0"
+  - first:
+      213: 9190140886528756554
+    second: "bal\xE3o de pensamento sumindo_1"
+  - first:
+      213: 1079306191813293641
+    second: "bal\xE3o de pensamento sumindo_2"
+  - first:
+      213: -227301373736922896
+    second: "bal\xE3o de pensamento sumindo_3"
+  - first:
+      213: 5499685625941985078
+    second: "bal\xE3o de pensamento sumindo_4"
+  - first:
+      213: 8357909678487834888
+    second: "bal\xE3o de pensamento sumindo_5"
+  - first:
+      213: 7128490360502337314
+    second: "bal\xE3o de pensamento sumindo_6"
+  - first:
+      213: 4297163761339600523
+    second: "bal\xE3o de pensamento sumindo_7"
+  - first:
+      213: -5774835474963659197
+    second: "bal\xE3o de pensamento sumindo_8"
+  - first:
+      213: 8702841264332694641
+    second: "bal\xE3o de pensamento sumindo_9"
+  - first:
+      213: 615188665597729785
+    second: "bal\xE3o de pensamento sumindo_10"
+  - first:
+      213: -2225837503067914454
+    second: "bal\xE3o de pensamento sumindo_11"
+  - first:
+      213: -8295402074389785814
+    second: "bal\xE3o de pensamento sumindo_12"
+  - first:
+      213: 3699447848439764213
+    second: "bal\xE3o de pensamento sumindo_13"
+  - first:
+      213: 5630856064990461903
+    second: "bal\xE3o de pensamento sumindo_14"
+  - first:
+      213: 6235028805596421139
+    second: "bal\xE3o de pensamento sumindo_15"
+  - first:
+      213: -5767890090771737216
+    second: "bal\xE3o de pensamento sumindo_16"
+  - first:
+      213: 2004058418839011401
+    second: "bal\xE3o de pensamento sumindo_17"
+  - first:
+      213: 4750825631225513516
+    second: "bal\xE3o de pensamento sumindo_18"
+  - first:
+      213: -5632363700451545972
+    second: "bal\xE3o de pensamento sumindo_19"
+  - first:
+      213: 1584215737278242326
+    second: "bal\xE3o de pensamento sumindo_20"
+  - first:
+      213: 5671906256781823633
+    second: "bal\xE3o de pensamento sumindo_21"
+  - first:
+      213: 268730314304079
+    second: "bal\xE3o de pensamento sumindo_22"
+  - first:
+      213: -7784923057824474730
+    second: "bal\xE3o de pensamento sumindo_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "bal\xE3o de pensamento sumindo_0"
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 498
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff13d4ff1997bcd0800000000000000
+      internalID: -2542395102096842757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 495777f599376894f99d5726a492660d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "bal\xE3o de pensamento sumindo_0": -2542395102096842757
+      "bal\xE3o de pensamento sumindo_1": 9190140886528756554
+      "bal\xE3o de pensamento sumindo_10": 615188665597729785
+      "bal\xE3o de pensamento sumindo_11": -2225837503067914454
+      "bal\xE3o de pensamento sumindo_12": -8295402074389785814
+      "bal\xE3o de pensamento sumindo_13": 3699447848439764213
+      "bal\xE3o de pensamento sumindo_14": 5630856064990461903
+      "bal\xE3o de pensamento sumindo_15": 6235028805596421139
+      "bal\xE3o de pensamento sumindo_16": -5767890090771737216
+      "bal\xE3o de pensamento sumindo_17": 2004058418839011401
+      "bal\xE3o de pensamento sumindo_18": 4750825631225513516
+      "bal\xE3o de pensamento sumindo_19": -5632363700451545972
+      "bal\xE3o de pensamento sumindo_2": 1079306191813293641
+      "bal\xE3o de pensamento sumindo_20": 1584215737278242326
+      "bal\xE3o de pensamento sumindo_21": 5671906256781823633
+      "bal\xE3o de pensamento sumindo_22": 268730314304079
+      "bal\xE3o de pensamento sumindo_23": -7784923057824474730
+      "bal\xE3o de pensamento sumindo_3": -227301373736922896
+      "bal\xE3o de pensamento sumindo_4": 5499685625941985078
+      "bal\xE3o de pensamento sumindo_5": 8357909678487834888
+      "bal\xE3o de pensamento sumindo_6": 7128490360502337314
+      "bal\xE3o de pensamento sumindo_7": 4297163761339600523
+      "bal\xE3o de pensamento sumindo_8": -5774835474963659197
+      "bal\xE3o de pensamento sumindo_9": 8702841264332694641
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
