@@ -4,9 +4,7 @@ using UnityEngine.SceneManagement;
 public class tocar_músicas : MonoBehaviour
 {
     public AudioSource audioSource;
-    public GameObject Vida;
     public AudioClip som_de_vitoria;
-    public AudioClip som_de_morte;
     public AudioClip música_do_jogo;
     public bool somTocado = false;
     public bool comecar_musica = false;

@@ -25,8 +25,7 @@ public class vida : MonoBehaviour
     public bool som_tocando = false;
     public bool rodar_random = true;
     public Scene Tutorial;
-    public GameObject som;
-    public AudioClip som_de_morte;
+   
 
     void Start()
     {
@@ -34,8 +33,7 @@ public class vida : MonoBehaviour
         try
         {
             pointmaneger = GameObject.FindWithTag("PointMane").GetComponent<PointMane>();
-            som = GameObject.FindWithTag("som");
-            som_de_morte = som.GetComponent<tocar_músicas>().som_de_morte;
+            
         }
         catch
         { }
@@ -52,7 +50,7 @@ public class vida : MonoBehaviour
 
         if (player1life <= 0)
         {
-           player1morto = true;
+            player1morto = true;
             tempo += Time.deltaTime;
             mudar_cena();
            
@@ -105,19 +103,19 @@ public class vida : MonoBehaviour
     }
     public void mudar_cena()
     {
-       som.GetComponent<AudioSource>().PlayOneShot(som_de_morte);
+       
         if (tempo >= cooldown && rodar_random)
         {
             if (player1morto == true)
             {
                 pointmaneger.player2Points++;
-               
+              
 
             }
             else if (player2morto == true)
             {
                 pointmaneger.player1Points++;
-               
+        
 
             }
            
