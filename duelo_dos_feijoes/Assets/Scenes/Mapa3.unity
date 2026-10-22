@@ -9620,6 +9620,8 @@ MonoBehaviour:
   animacao_danoP1: 0
   animacao_danoP2: 0
   transition: {fileID: 1600056519}
+  perso1: {fileID: 0}
+  perso2: {fileID: 0}
   som_tocando: 0
   rodar_random: 1
   Tutorial:
@@ -23133,7 +23135,7 @@ GameObject:
   - component: {fileID: 1369035087}
   - component: {fileID: 1369035086}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas_estat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
