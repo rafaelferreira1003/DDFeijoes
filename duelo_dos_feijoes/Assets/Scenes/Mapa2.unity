@@ -5626,6 +5626,8 @@ MonoBehaviour:
   animacao_danoP1: 0
   animacao_danoP2: 0
   transition: {fileID: 1600056519}
+  perso1: {fileID: 1901277039}
+  perso2: {fileID: 0}
   som_tocando: 0
   rodar_random: 1
   Tutorial:
@@ -21670,6 +21672,11 @@ Transform:
   - {fileID: 1950790893}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1901277039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4566605591667976210, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+  m_PrefabInstance: {fileID: 169916118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1921637269
 GameObject:
   m_ObjectHideFlags: 0

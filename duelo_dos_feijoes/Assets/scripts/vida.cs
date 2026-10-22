@@ -1,6 +1,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -22,6 +23,8 @@ public class vida : MonoBehaviour
     public bool animacao_danoP1 = false;
     public bool animacao_danoP2 = false;
     public GameObject transition;
+    public GameObject perso1;
+    public GameObject perso2;
     public bool som_tocando = false;
     public bool rodar_random = true;
     public Scene Tutorial;
@@ -33,12 +36,16 @@ public class vida : MonoBehaviour
         try
         {
             pointmaneger = GameObject.FindWithTag("PointMane").GetComponent<PointMane>();
-            
+           
+
         }
         catch
         { }
-       
 
+        perso1 = GameObject.FindGameObjectWithTag("Player");
+        perso2 = GameObject.FindGameObjectWithTag("player2");
+        player1 = perso1.GetComponentsInChildren<SpriteRenderer>()[1];
+        player2 = perso2.GetComponentsInChildren<SpriteRenderer>()[1];
     }
     void Update()
     {

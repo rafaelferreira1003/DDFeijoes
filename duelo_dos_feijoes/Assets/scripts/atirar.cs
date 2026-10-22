@@ -25,6 +25,7 @@ public class atirar : MonoBehaviour
     public AudioClip recarga_som;
     public AudioSource audioSource;
     public Transform ponto_de_tiro;
+    public GameObject canvas_tiro;
     void Start()
     {
         try
@@ -32,6 +33,8 @@ public class atirar : MonoBehaviour
             tiro = GameObject.Find("tirop1");
             municaoText.text = municao.ToString();
             audioSource = GetComponent<AudioSource>();
+            canvas_tiro = GameObject.Find("Canvas");
+            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
         }
         catch
         {

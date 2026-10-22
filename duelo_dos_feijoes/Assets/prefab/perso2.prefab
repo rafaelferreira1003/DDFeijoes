@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2986233405460473031}
   - component: {fileID: 4009249613791058788}
   m_Layer: 0
-  m_Name: imagem
+  m_Name: imagemp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,6 +463,7 @@ MonoBehaviour:
   recarga_som: {fileID: 8300000, guid: af1d8318fe02a214b9079a32246c27e6, type: 3}
   audioSource: {fileID: 0}
   ponto_de_tiro: {fileID: 6127530483777055657}
+  canvas_tiro: {fileID: 0}
 --- !u!114 &9194497951325292800
 MonoBehaviour:
   m_ObjectHideFlags: 0

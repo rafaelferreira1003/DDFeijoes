@@ -6077,6 +6077,8 @@ MonoBehaviour:
   animacao_danoP1: 0
   animacao_danoP2: 0
   transition: {fileID: 1600056519}
+  perso1: {fileID: 0}
+  perso2: {fileID: 0}
   som_tocando: 0
   rodar_random: 1
   Tutorial:
@@ -23634,6 +23636,10 @@ PrefabInstance:
     - target: {fileID: 1713878055516316067, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2600182101956292880, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
+      propertyPath: m_Name
+      value: imagemp2
       objectReference: {fileID: 0}
     - target: {fileID: 3430541196797930404, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
       propertyPath: m_Name
