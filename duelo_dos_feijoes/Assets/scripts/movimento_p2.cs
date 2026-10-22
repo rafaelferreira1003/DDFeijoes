@@ -10,7 +10,14 @@ public class movimento_p2 : MonoBehaviour
     public GameObject vida;
     public bool p2morto = false;
     public GameObject imagem;
-  
+
+    private void Start()
+    {
+        if (vida == null)
+        {
+            vida = GameObject.Find("vida");
+        }
+    }
     void Update()
     {
         p2morto = vida.GetComponent<vida>().player2morto;

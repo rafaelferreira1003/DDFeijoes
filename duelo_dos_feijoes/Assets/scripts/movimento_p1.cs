@@ -12,6 +12,14 @@ public class movimento_p1 : MonoBehaviour
     public GameObject vida;
     public bool p1morto = false;
     public GameObject imagem;
+
+    private void Start()
+    {
+        if (vida == null)
+        {
+            vida = GameObject.Find("vida");
+        }
+    }
     void Update()
     {
         

@@ -25,6 +25,7 @@ public class atirar2 : MonoBehaviour
     public AudioClip atirar_som;
     public AudioClip recarga_som;
     public AudioSource audioSource;
+    public Transform ponto_de_tiro;
     void Start()
     {
         try
@@ -39,6 +40,12 @@ public class atirar2 : MonoBehaviour
         if (SceneManager.GetActiveScene().name == ("Tutorial"))
         {
             municao = 99999999999999999999.0f;
+        }
+
+
+        if (vida == null)
+        {
+            vida = GameObject.Find("vida");
         }
 
     }
@@ -58,7 +65,7 @@ public class atirar2 : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.RightControl) && recarga && municao > 0.0f && cooldown <= 0.0f)
             {
                 try {Debug.Log("Atirou");
-                clone = Instantiate(tiro, gameObject.transform.position, gameObject.transform.rotation);
+                clone = Instantiate(tiro, ponto_de_tiro.transform.position, gameObject.transform.rotation);
                 clone.tag = "tiro";
                 imagem.GetComponent<Animator>().SetBool("atirandop2", true);
                 municao -= 1.0f;
