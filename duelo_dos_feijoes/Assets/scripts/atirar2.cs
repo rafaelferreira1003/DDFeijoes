@@ -34,8 +34,7 @@ public class atirar2 : MonoBehaviour
             tiro = GameObject.Find("tirop2");
             municaoText.text = municao.ToString();
             audioSource = GetComponent<AudioSource>();
-            canvas_tiro = GameObject.Find("Canvas");
-            municaoText = canvas_tiro.transform.Find("muniçãop2").GetComponent<TMPro.TMP_Text>();
+           
         }
         catch
         {
@@ -44,7 +43,12 @@ public class atirar2 : MonoBehaviour
         {
             municao = 99999999999999999999.0f;
         }
-
+        else
+        {
+            canvas_tiro = GameObject.Find("Canvas_estat");
+            municaoText = canvas_tiro.transform.Find("muniçãop2").GetComponent<TMPro.TMP_Text>();
+            municaoText.text = municao.ToString();
+        }
 
         if (vida == null)
         {

@@ -33,7 +33,7 @@ public class atirar : MonoBehaviour
             tiro = GameObject.Find("tirop1");
             municaoText.text = municao.ToString();
             audioSource = GetComponent<AudioSource>();
-            canvas_tiro = GameObject.Find("Canvas");
+            canvas_tiro = GameObject.Find("Canvas_estat");
             municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
         }
         catch
@@ -42,6 +42,12 @@ public class atirar : MonoBehaviour
         if (SceneManager.GetActiveScene().name == ("Tutorial"))
         {
             municao = 99999999999999999999.0f;
+        }
+        else
+        {
+            canvas_tiro = GameObject.Find("Canvas_estat");
+            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
+            municaoText.text = municao.ToString();
         }
 
 
