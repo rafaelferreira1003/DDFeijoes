@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: f581cb7dfceed37488d896129466953f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2457211962806510165
+    second: Recarregar arma battle bean_0
+  - first:
+      213: 2627298904465897042
+    second: Recarregar arma battle bean_1
+  - first:
+      213: -2780878000606312384
+    second: Recarregar arma battle bean_2
+  - first:
+      213: 7275949638766795240
+    second: Recarregar arma battle bean_3
+  - first:
+      213: -7672791390771719590
+    second: Recarregar arma battle bean_4
+  - first:
+      213: 5310795589952131724
+    second: Recarregar arma battle bean_5
+  - first:
+      213: -8564816762221691259
+    second: Recarregar arma battle bean_6
+  - first:
+      213: 6930387917865089858
+    second: Recarregar arma battle bean_7
+  - first:
+      213: 5689019852137450970
+    second: Recarregar arma battle bean_8
+  - first:
+      213: 1280400715699228776
+    second: Recarregar arma battle bean_9
+  - first:
+      213: 706772229702109838
+    second: Recarregar arma battle bean_10
+  - first:
+      213: 6707550340875617097
+    second: Recarregar arma battle bean_11
+  - first:
+      213: -8421720200256282647
+    second: Recarregar arma battle bean_12
+  - first:
+      213: -103766181842115568
+    second: Recarregar arma battle bean_13
+  - first:
+      213: -2798057311184741022
+    second: Recarregar arma battle bean_14
+  - first:
+      213: -5714657901729772985
+    second: Recarregar arma battle bean_15
+  - first:
+      213: 6044401034315023297
+    second: Recarregar arma battle bean_16
+  - first:
+      213: 3049163714492519626
+    second: Recarregar arma battle bean_17
+  - first:
+      213: 6218035722235097150
+    second: Recarregar arma battle bean_18
+  - first:
+      213: 2333554118808754459
+    second: Recarregar arma battle bean_19
+  - first:
+      213: -323530423023973501
+    second: Recarregar arma battle bean_20
+  - first:
+      213: -2854988562537901206
+    second: Recarregar arma battle bean_21
+  - first:
+      213: 2193775322469622918
+    second: Recarregar arma battle bean_22
+  - first:
+      213: 413107732619417765
+    second: Recarregar arma battle bean_23
+  - first:
+      213: -1079592422996352396
+    second: Recarregar arma battle bean_24
+  - first:
+      213: 9084647806215252662
+    second: Recarregar arma battle bean_25
+  - first:
+      213: 1211893245064422132
+    second: Recarregar arma battle bean_26
+  - first:
+      213: 1940875231680660220
+    second: Recarregar arma battle bean_27
+  - first:
+      213: -1293661968893406260
+    second: Recarregar arma battle bean_28
+  - first:
+      213: 7090698671528707888
+    second: Recarregar arma battle bean_29
+  - first:
+      213: 8735947178757489155
+    second: Recarregar arma battle bean_30
+  - first:
+      213: 913238747582850759
+    second: Recarregar arma battle bean_31
+  - first:
+      213: 2529014500472877836
+    second: Recarregar arma battle bean_32
+  - first:
+      213: -3846907644746622157
+    second: Recarregar arma battle bean_33
+  - first:
+      213: 2218984206466048782
+    second: Recarregar arma battle bean_34
+  - first:
+      213: -27543757779232544
+    second: Recarregar arma battle bean_35
+  - first:
+      213: -6525082035256856045
+    second: Recarregar arma battle bean_36
+  - first:
+      213: -3475545773843917451
+    second: Recarregar arma battle bean_37
+  - first:
+      213: -1301308750907597156
+    second: Recarregar arma battle bean_38
+  - first:
+      213: -2650519917603713942
+    second: Recarregar arma battle bean_39
+  - first:
+      213: 5656227036360754209
+    second: Recarregar arma battle bean_40
+  - first:
+      213: -1991962722289305004
+    second: Recarregar arma battle bean_41
+  - first:
+      213: -6039794346528090085
+    second: Recarregar arma battle bean_42
+  - first:
+      213: 5915448608901723811
+    second: Recarregar arma battle bean_43
+  - first:
+      213: -8351537846135952124
+    second: Recarregar arma battle bean_44
+  - first:
+      213: -8810238517886651203
+    second: Recarregar arma battle bean_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 581
+        width: 427
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badd31b1dba36edd0800000000000000
+      internalID: -2457211962806510165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_1
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 727
+        width: 107
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256767ffe6a067420800000000000000
+      internalID: 2627298904465897042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 730
+        width: 82
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048892231365869d0800000000000000
+      internalID: -2780878000606312384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_3
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 740
+        width: 63
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9935695ad59f460800000000000000
+      internalID: 7275949638766795240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_4
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 734
+        width: 93
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52506dd1e4c48590800000000000000
+      internalID: -7672791390771719590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_5
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 734
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82dec5837cb3b940800000000000000
+      internalID: 5310795589952131724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_6
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 724
+        width: 96
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef6797888a32980800000000000000
+      internalID: -8564816762221691259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_7
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 724
+        width: 33
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bf100b71fad2060800000000000000
+      internalID: 6930387917865089858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_8
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 723
+        width: 125
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add4ccee96573fe40800000000000000
+      internalID: 5689019852137450970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_9
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 744
+        width: 111
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8609865caa5e4c110800000000000000
+      internalID: 1280400715699228776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_10
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 575
+        width: 444
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a41882995fec900800000000000000
+      internalID: 706772229702109838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_11
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 729
+        width: 107
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94301f43f71061d50800000000000000
+      internalID: 6707550340875617097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_12
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 732
+        width: 82
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef1ef9191a002b80800000000000000
+      internalID: -8421720200256282647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_13
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 742
+        width: 63
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0142a9715395f8ef0800000000000000
+      internalID: -103766181842115568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_14
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 736
+        width: 93
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d16a143bd4b29d0800000000000000
+      internalID: -2798057311184741022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_15
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 736
+        width: 112
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a848a7ae471b0b0800000000000000
+      internalID: -5714657901729772985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_16
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 726
+        width: 96
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3c95257b602e350800000000000000
+      internalID: 6044401034315023297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_17
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 726
+        width: 33
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac456504e3ec05a20800000000000000
+      internalID: 3049163714492519626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_18
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 725
+        width: 125
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3033887b86ea4650800000000000000
+      internalID: 6218035722235097150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_19
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 746
+        width: 111
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19debb7b13726020800000000000000
+      internalID: 2333554118808754459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_20
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 746
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bcf9d5bc6928bf0800000000000000
+      internalID: -323530423023973501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 31
+        width: 448
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63102c570b0168d0800000000000000
+      internalID: -2854988562537901206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_22
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 187
+        width: 108
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684e1dc580bd17e10800000000000000
+      internalID: 2193775322469622918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_23
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 190
+        width: 83
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a85fb84b47abb500800000000000000
+      internalID: 413107732619417765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_24
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 200
+        width: 64
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472691549648401f0800000000000000
+      internalID: -1079592422996352396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_25
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 194
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baedf61c07231e70800000000000000
+      internalID: 9084647806215252662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_26
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 194
+        width: 114
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2a2c94c7281d010800000000000000
+      internalID: 1211893245064422132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_27
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 184
+        width: 98
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf20ea17dbf5fea10800000000000000
+      internalID: 1940875231680660220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_28
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 184
+        width: 35
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc31dac1b4dfb0ee0800000000000000
+      internalID: -1293661968893406260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_29
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 183
+        width: 127
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0378dc5afd8376260800000000000000
+      internalID: 7090698671528707888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_30
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 204
+        width: 113
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3028a6e8ca15c3970800000000000000
+      internalID: 8735947178757489155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_31
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 204
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c66cc86dc97cac00800000000000000
+      internalID: 913238747582850759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_32
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 204
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c037f74f94dd81320800000000000000
+      internalID: 2529014500472877836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_33
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 40
+        width: 448
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b942ff0e90d9ac0800000000000000
+      internalID: -3846907644746622157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_34
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 199
+        width: 108
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e036c9c016a6bce10800000000000000
+      internalID: 2218984206466048782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_35
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 202
+        width: 83
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e81ac529152e9ff0800000000000000
+      internalID: -27543757779232544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_36
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 212
+        width: 64
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3127b36d5704275a0800000000000000
+      internalID: -6525082035256856045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_37
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 206
+        width: 94
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5755c6d688164cfc0800000000000000
+      internalID: -3475545773843917451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_38
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 206
+        width: 113
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e9b0fe592d0fde0800000000000000
+      internalID: -1301308750907597156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_39
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 196
+        width: 97
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c02219d26773bd0800000000000000
+      internalID: -2650519917603713942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_40
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 196
+        width: 34
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1244e378584fe7e40800000000000000
+      internalID: 5656227036360754209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_41
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 195
+        width: 126
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a302c35702b54e0800000000000000
+      internalID: -1991962722289305004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_42
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 216
+        width: 112
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18d7c2ca075e2ca0800000000000000
+      internalID: -6039794346528090085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_43
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 216
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a67aac1b25e71250800000000000000
+      internalID: 5915448608901723811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_44
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 216
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40de5d8c390691c80800000000000000
+      internalID: -8351537846135952124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recarregar arma battle bean_45
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 216
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4f6e22fbebbb580800000000000000
+      internalID: -8810238517886651203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Recarregar arma battle bean_0: -2457211962806510165
+      Recarregar arma battle bean_1: 2627298904465897042
+      Recarregar arma battle bean_10: 706772229702109838
+      Recarregar arma battle bean_11: 6707550340875617097
+      Recarregar arma battle bean_12: -8421720200256282647
+      Recarregar arma battle bean_13: -103766181842115568
+      Recarregar arma battle bean_14: -2798057311184741022
+      Recarregar arma battle bean_15: -5714657901729772985
+      Recarregar arma battle bean_16: 6044401034315023297
+      Recarregar arma battle bean_17: 3049163714492519626
+      Recarregar arma battle bean_18: 6218035722235097150
+      Recarregar arma battle bean_19: 2333554118808754459
+      Recarregar arma battle bean_2: -2780878000606312384
+      Recarregar arma battle bean_20: -323530423023973501
+      Recarregar arma battle bean_21: -2854988562537901206
+      Recarregar arma battle bean_22: 2193775322469622918
+      Recarregar arma battle bean_23: 413107732619417765
+      Recarregar arma battle bean_24: -1079592422996352396
+      Recarregar arma battle bean_25: 9084647806215252662
+      Recarregar arma battle bean_26: 1211893245064422132
+      Recarregar arma battle bean_27: 1940875231680660220
+      Recarregar arma battle bean_28: -1293661968893406260
+      Recarregar arma battle bean_29: 7090698671528707888
+      Recarregar arma battle bean_3: 7275949638766795240
+      Recarregar arma battle bean_30: 8735947178757489155
+      Recarregar arma battle bean_31: 913238747582850759
+      Recarregar arma battle bean_32: 2529014500472877836
+      Recarregar arma battle bean_33: -3846907644746622157
+      Recarregar arma battle bean_34: 2218984206466048782
+      Recarregar arma battle bean_35: -27543757779232544
+      Recarregar arma battle bean_36: -6525082035256856045
+      Recarregar arma battle bean_37: -3475545773843917451
+      Recarregar arma battle bean_38: -1301308750907597156
+      Recarregar arma battle bean_39: -2650519917603713942
+      Recarregar arma battle bean_4: -7672791390771719590
+      Recarregar arma battle bean_40: 5656227036360754209
+      Recarregar arma battle bean_41: -1991962722289305004
+      Recarregar arma battle bean_42: -6039794346528090085
+      Recarregar arma battle bean_43: 5915448608901723811
+      Recarregar arma battle bean_44: -8351537846135952124
+      Recarregar arma battle bean_45: -8810238517886651203
+      Recarregar arma battle bean_5: 5310795589952131724
+      Recarregar arma battle bean_6: -8564816762221691259
+      Recarregar arma battle bean_7: 6930387917865089858
+      Recarregar arma battle bean_8: 5689019852137450970
+      Recarregar arma battle bean_9: 1280400715699228776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
