@@ -1787,7 +1787,8 @@ Transform:
   m_LocalPosition: {x: -0.08, y: 0.87, z: -0.0070829988}
   m_LocalScale: {x: 0.39204296, y: 0.3912662, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 812411069}
   m_Father: {fileID: 1898235562}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.457}
 --- !u!212 &286330604
@@ -4181,6 +4182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812411069}
   - component: {fileID: 812411070}
+  - component: {fileID: 812411071}
   m_Layer: 0
   m_Name: ponto_de_tiro
   m_TagString: Untagged
@@ -4196,12 +4198,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812411068}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.21934688, y: 1.2530419, z: -0.0070829988}
-  m_LocalScale: {x: 0.13625434, y: 0.103810936, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0039853854, w: 0.9999921}
+  m_LocalPosition: {x: -0.3632142, y: 0.9761104, z: 0}
+  m_LocalScale: {x: 0.34754956, y: 0.26532042, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1898235562}
+  m_Father: {fileID: 286330603}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &812411070
 SpriteRenderer:
@@ -4261,6 +4263,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &812411071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812411068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6af70bdf38cf9148ab5459d51233d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rot_pont_mira
+  parentTransform: {fileID: 1898235562}
+  angle: 0
 --- !u!1 &897693382
 GameObject:
   m_ObjectHideFlags: 0
@@ -6003,7 +6019,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.93, z: 0.006090401}
   m_LocalScale: {x: 0.39204296, y: 0.3912662, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2103702094}
   m_Father: {fileID: 157822450}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1388078585
@@ -8082,7 +8099,6 @@ Transform:
   m_Children:
   - {fileID: 286330603}
   - {fileID: 691520497}
-  - {fileID: 812411069}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &1898235570
@@ -8296,6 +8312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2103702094}
   - component: {fileID: 2103702095}
+  - component: {fileID: 2103702096}
   m_Layer: 0
   m_Name: ponto_de_tiro
   m_TagString: Untagged
@@ -8312,11 +8329,11 @@ Transform:
   m_GameObject: {fileID: 2103702093}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.85, y: 0.43, z: 0}
-  m_LocalScale: {x: 0.1261, y: 0.0852, z: 1}
+  m_LocalPosition: {x: 0.3307367, y: 1.080987, z: 0}
+  m_LocalScale: {x: 0.3475495, y: 0.26532048, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1388078584}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2103702095
 SpriteRenderer:
@@ -8376,6 +8393,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2103702096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103702093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6af70bdf38cf9148ab5459d51233d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rot_pont_mira
+  parentTransform: {fileID: 157822450}
+  angle: 0
 --- !u!1 &2124020351
 GameObject:
   m_ObjectHideFlags: 0
@@ -8476,7 +8507,6 @@ SceneRoots:
   - {fileID: 1525599269}
   - {fileID: 1821093709}
   - {fileID: 157822450}
-  - {fileID: 2103702094}
   - {fileID: 1898235562}
   - {fileID: 125182666}
   - {fileID: 1786140943}
