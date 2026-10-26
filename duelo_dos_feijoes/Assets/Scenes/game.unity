@@ -6269,11 +6269,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &964628770 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7704528615262505971, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
-  m_PrefabInstance: {fileID: 7352020280908248601}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &971327897
 GameObject:
   m_ObjectHideFlags: 0
@@ -23637,10 +23632,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2600182101956292880, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
-      propertyPath: m_Name
-      value: imagemp2
-      objectReference: {fileID: 0}
     - target: {fileID: 3430541196797930404, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
       propertyPath: m_Name
       value: perso2
@@ -23666,6 +23657,10 @@ PrefabInstance:
       propertyPath: vida
       value: 
       objectReference: {fileID: 897693382}
+    - target: {fileID: 1535330442289057149, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4566605591667976210, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
       propertyPath: m_Name
       value: perso1
@@ -23682,10 +23677,6 @@ PrefabInstance:
       propertyPath: municaoText
       value: 
       objectReference: {fileID: 1665110127}
-    - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
-      propertyPath: ponto_de_tiro
-      value: 
-      objectReference: {fileID: 964628770}
     - target: {fileID: 7099990881160572512, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.7548003

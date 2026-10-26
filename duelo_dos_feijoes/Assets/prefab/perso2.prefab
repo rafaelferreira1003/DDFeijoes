@@ -139,6 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6127530483777055657}
   - component: {fileID: 5126417873956705658}
+  - component: {fileID: 7948803788619868161}
   m_Layer: 0
   m_Name: ponto_de_tiro (1)
   m_TagString: Untagged
@@ -219,6 +220,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7948803788619868161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2764466604365628280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6af70bdf38cf9148ab5459d51233d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rot_pont_mira
+  parentTransform: {fileID: 1713878055516316067}
+  angle: 0
 --- !u!1 &3430541196797930404
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7704528615262505971}
   - component: {fileID: 7752258376968500609}
+  - component: {fileID: 4618387272166766530}
   m_Layer: 0
   m_Name: ponto_de_tiro
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 1535330442289057149}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.0039853854, w: 0.9999921}
-  m_LocalPosition: {x: -0.37009403, y: 1.078824, z: 0}
-  m_LocalScale: {x: 0.34754956, y: 0.26532045, z: 1}
+  m_LocalPosition: {x: -0.63, y: 1.05, z: 0}
+  m_LocalScale: {x: 1.175065, y: 0.26532045, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7070358596062317519}
@@ -90,6 +91,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4618387272166766530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535330442289057149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6af70bdf38cf9148ab5459d51233d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::rot_pont_mira
+  parentTransform: {fileID: 7099990881160572512}
+  angle: 0
 --- !u!1 &4566605591667976210
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +478,7 @@ MonoBehaviour:
   recarga_som: {fileID: 8300000, guid: af1d8318fe02a214b9079a32246c27e6, type: 3}
   audioSource: {fileID: 0}
   ponto_de_tiro: {fileID: 7704528615262505971}
+  canvas_tiro: {fileID: 0}
 --- !u!114 &5816807831951581645
 MonoBehaviour:
   m_ObjectHideFlags: 0

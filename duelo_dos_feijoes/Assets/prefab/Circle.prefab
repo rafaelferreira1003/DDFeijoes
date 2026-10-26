@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4406930914389901738
 Transform:
   m_ObjectHideFlags: 0
@@ -203,7 +203,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: "Assembly-CSharp::tocar_m\xFAsicas"
   audioSource: {fileID: 8587273849236572111}
   som_de_vitoria: {fileID: 8300000, guid: 70f7ba532d4c9164394c76ecc5a3c352, type: 3}
-  som_de_morte: {fileID: 8300000, guid: e106f982624579e42b0cd8ea018528bf, type: 3}
   "m\xFAsica_do_jogo": {fileID: 8300000, guid: 8cdaca25c0d98fb4c92b2e762cdc0a1d, type: 3}
   somTocado: 0
   comecar_musica: 0
