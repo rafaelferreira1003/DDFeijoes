@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: -7463047326035132207, guid: 8d815538a386e2b44b6ccd4702598372, type: 3}
+  - logo: {fileID: -1676373199491429187, guid: 039f39c2ec2b21e4f88d2c1fc0dc68f4, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -298,7 +298,7 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: accc23ca32302b84b8de920d034afe41, type: 3}
+      m_Icon: {fileID: 2800000, guid: 44e350b2b0d245f4ca257324d14b8d97, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 0
@@ -336,6 +336,13 @@ PlayerSettings:
       m_Icon: {fileID: 0}
       m_Width: 16
       m_Height: 16
+      m_Kind: 0
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 128
+      m_Height: 128
       m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
@@ -785,7 +792,7 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: -7443756053782179069, guid: a69ee0ccdfe818a46a0a27f1375ea8a9, type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
