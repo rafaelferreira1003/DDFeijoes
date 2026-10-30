@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 039f39c2ec2b21e4f88d2c1fc0dc68f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1676373199491429187
+    second: Battle Bean Dev Team_0
+  - first:
+      213: 3173810977927590747
+    second: Battle Bean Dev Team_1
+  - first:
+      213: -5870292842376752505
+    second: Battle Bean Dev Team_2
+  - first:
+      213: -2685735096125250049
+    second: Battle Bean Dev Team_3
+  - first:
+      213: 3011831196508936552
+    second: Battle Bean Dev Team_4
+  - first:
+      213: -74379669570430664
+    second: Battle Bean Dev Team_5
+  - first:
+      213: 6863439159240436726
+    second: Battle Bean Dev Team_6
+  - first:
+      213: -8677020867131186047
+    second: Battle Bean Dev Team_7
+  - first:
+      213: 6001431721893940566
+    second: Battle Bean Dev Team_8
+  - first:
+      213: 95734894924610929
+    second: Battle Bean Dev Team_9
+  - first:
+      213: 7917767763601893822
+    second: Battle Bean Dev Team_10
+  - first:
+      213: 3733103277944933382
+    second: Battle Bean Dev Team_11
+  - first:
+      213: 2780980894717163854
+    second: Battle Bean Dev Team_12
+  - first:
+      213: -1865179918318145248
+    second: Battle Bean Dev Team_13
+  - first:
+      213: -3162454696506008033
+    second: Battle Bean Dev Team_14
+  - first:
+      213: 6165657360437607682
+    second: Battle Bean Dev Team_15
+  - first:
+      213: 6761513869471788463
+    second: Battle Bean Dev Team_16
+  - first:
+      213: 3331849297891902415
+    second: Battle Bean Dev Team_17
+  - first:
+      213: 61429560432515398
+    second: Battle Bean Dev Team_18
+  - first:
+      213: 5881422785054985061
+    second: Battle Bean Dev Team_19
+  - first:
+      213: -1631021288304486140
+    second: Battle Bean Dev Team_20
+  - first:
+      213: -2139584635801325417
+    second: Battle Bean Dev Team_21
+  - first:
+      213: -1272672629560287032
+    second: Battle Bean Dev Team_22
+  - first:
+      213: -9126071326391982749
+    second: Battle Bean Dev Team_23
+  - first:
+      213: -6188116363497789342
+    second: Battle Bean Dev Team_24
+  - first:
+      213: -2095599293222209858
+    second: Battle Bean Dev Team_25
+  - first:
+      213: -1003007598979232229
+    second: Battle Bean Dev Team_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Battle Bean Dev Team_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 1814
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc0455f4735cb8e0800000000000000
+      internalID: -1676373199491429187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0080d5b4c71c7f849af9679eade5ea66
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Battle Bean Dev Team_0: -1676373199491429187
+      Battle Bean Dev Team_1: 3173810977927590747
+      Battle Bean Dev Team_10: 7917767763601893822
+      Battle Bean Dev Team_11: 3733103277944933382
+      Battle Bean Dev Team_12: 2780980894717163854
+      Battle Bean Dev Team_13: -1865179918318145248
+      Battle Bean Dev Team_14: -3162454696506008033
+      Battle Bean Dev Team_15: 6165657360437607682
+      Battle Bean Dev Team_16: 6761513869471788463
+      Battle Bean Dev Team_17: 3331849297891902415
+      Battle Bean Dev Team_18: 61429560432515398
+      Battle Bean Dev Team_19: 5881422785054985061
+      Battle Bean Dev Team_2: -5870292842376752505
+      Battle Bean Dev Team_20: -1631021288304486140
+      Battle Bean Dev Team_21: -2139584635801325417
+      Battle Bean Dev Team_22: -1272672629560287032
+      Battle Bean Dev Team_23: -9126071326391982749
+      Battle Bean Dev Team_24: -6188116363497789342
+      Battle Bean Dev Team_25: -2095599293222209858
+      Battle Bean Dev Team_26: -1003007598979232229
+      Battle Bean Dev Team_3: -2685735096125250049
+      Battle Bean Dev Team_4: 3011831196508936552
+      Battle Bean Dev Team_5: -74379669570430664
+      Battle Bean Dev Team_6: 6863439159240436726
+      Battle Bean Dev Team_7: -8677020867131186047
+      Battle Bean Dev Team_8: 6001431721893940566
+      Battle Bean Dev Team_9: 95734894924610929
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
