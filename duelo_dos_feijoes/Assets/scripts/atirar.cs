@@ -37,7 +37,6 @@ public class atirar : MonoBehaviour
         else
         {
             canvas_tiro = GameObject.Find("Canvas_estat");
-            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
             municaoText.text = municao.ToString();
         }
     }
@@ -47,6 +46,7 @@ public class atirar : MonoBehaviour
         recarga_sprite = recarga_sprite_obj.GetComponent<SpriteRenderer>();
         try
         {
+            canvas_tiro = GameObject.Find("Canvas_estat");
             tiro = GameObject.Find("tirop1");
             municaoText.text = municao.ToString();
             audioSource = GetComponent<AudioSource>();

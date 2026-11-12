@@ -8751,6 +8751,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: perso1
       objectReference: {fileID: 0}
+    - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: tiro
+      value: 
+      objectReference: {fileID: 125182664}
+    - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: vida
+      value: 
+      objectReference: {fileID: 897693382}
+    - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: canvas_tiro
+      value: 
+      objectReference: {fileID: 1369035085}
+    - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: municaoText
+      value: 
+      objectReference: {fileID: 1665110127}
     - target: {fileID: 7099990881160572512, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.41
@@ -23604,6 +23620,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1713591688003351088, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
+      propertyPath: tiro
+      value: 
+      objectReference: {fileID: 1786140938}
+    - target: {fileID: 1713591688003351088, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
+      propertyPath: vida
+      value: 
+      objectReference: {fileID: 897693382}
+    - target: {fileID: 1713591688003351088, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
+      propertyPath: canvas_tiro
+      value: 
+      objectReference: {fileID: 1369035085}
+    - target: {fileID: 1713591688003351088, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
+      propertyPath: municaoText
+      value: 
+      objectReference: {fileID: 248007807}
     - target: {fileID: 1713878055516316067, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.609655
@@ -28023,6 +28055,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 780397445}
+  - {fileID: 1425217078}
   - {fileID: 1600056524}
   - {fileID: 125182666}
   - {fileID: 1786140943}
@@ -28060,5 +28094,3 @@ SceneRoots:
   - {fileID: 804749721}
   - {fileID: 1382167416}
   - {fileID: 860691679}
-  - {fileID: 780397445}
-  - {fileID: 1425217078}
