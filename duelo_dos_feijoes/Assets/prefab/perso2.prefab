@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 7388023431860028229}
   - component: {fileID: 5690999146142846539}
   m_Layer: 5
-  m_Name: Square (4)
+  m_Name: simb_recargap2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7738102401881576290}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -608,6 +608,7 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   ponto_de_tiro: {fileID: 6127530483777055657}
   canvas_tiro: {fileID: 0}
+  recarga_sprite_obj: {fileID: 0}
 --- !u!114 &9194497951325292800
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -44,8 +44,8 @@ public class vida : MonoBehaviour
 
         perso1 = GameObject.FindGameObjectWithTag("Player");
         perso2 = GameObject.FindGameObjectWithTag("player2");
-        player1 = perso1.GetComponentsInChildren<SpriteRenderer>()[1];
-        player2 = perso2.GetComponentsInChildren<SpriteRenderer>()[1];
+        player1 = perso1.GetComponentsInChildren<SpriteRenderer>()[2];
+        player2 = perso2.GetComponentsInChildren<SpriteRenderer>()[2];
     }
     void Update()
     {

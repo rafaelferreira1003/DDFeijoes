@@ -28,6 +28,19 @@ public class atirar : MonoBehaviour
     public GameObject canvas_tiro;
     private SpriteRenderer recarga_sprite;
     public GameObject recarga_sprite_obj;
+    void Awake()
+    {
+        if (SceneManager.GetActiveScene().name == ("Tutorial"))
+        {
+            municao = 99999999999999999999.0f;
+        }
+        else
+        {
+            canvas_tiro = GameObject.Find("Canvas_estat");
+            municaoText = canvas_tiro.transform.Find("muniÃ§Ã£op1").GetComponent<TMPro.TMP_Text>();
+            municaoText.text = municao.ToString();
+        }
+    }
     void Start()
     {
         recarga_sprite_obj = GameObject.Find("simb_recargp1");
@@ -38,32 +51,20 @@ public class atirar : MonoBehaviour
             municaoText.text = municao.ToString();
             audioSource = GetComponent<AudioSource>();
             canvas_tiro = GameObject.Find("Canvas_estat");
-            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
+            municaoText = canvas_tiro.transform.Find("muniÃ§Ã£op1").GetComponent<TMPro.TMP_Text>();
         }
         catch
         {
         }
-        if (SceneManager.GetActiveScene().name == ("Tutorial"))
-        {
-            municao = 99999999999999999999.0f;
-        }
-        else
-        {
-            canvas_tiro = GameObject.Find("Canvas_estat");
-            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
-            municaoText.text = municao.ToString();
-        }
-
-
-        if (vida == null)
-        {
-            vida = GameObject.Find("vida");
-        }
-
+       
 
     }
     void Update()
     {
+         if (vida == null)
+        {
+            vida = GameObject.Find("vida");
+        }
         p1morto = vida.GetComponent<vida>().player1morto;
         if (p1morto == false)
         {
