@@ -2874,6 +2874,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &557649174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2946503913001029348, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+  m_PrefabInstance: {fileID: 7352020280908248601}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &565904112
 GameObject:
   m_ObjectHideFlags: 0
@@ -23730,6 +23735,14 @@ PrefabInstance:
       propertyPath: vida
       value: 
       objectReference: {fileID: 897693382}
+    - target: {fileID: 7213150550653790551, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7738102401881576290, guid: 548cb21e38e307d46a8e1baea1d6e419, type: 3}
+      propertyPath: m_Name
+      value: simb_recargaap2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23747,9 +23760,21 @@ PrefabInstance:
       propertyPath: vida
       value: 
       objectReference: {fileID: 897693382}
+    - target: {fileID: 2946503913001029348, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: m_Name
+      value: simb_recargp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946503913001029348, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4566605591667976210, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
       propertyPath: m_Name
       value: perso1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750266430769409617, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
       propertyPath: tiro
@@ -23763,6 +23788,14 @@ PrefabInstance:
       propertyPath: municaoText
       value: 
       objectReference: {fileID: 1665110127}
+    - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: simb_recarga
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5361286825526248838, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
+      propertyPath: recarga_sprite_obj
+      value: 
+      objectReference: {fileID: 557649174}
     - target: {fileID: 7099990881160572512, guid: 680f970bce4a2bd43a59adb7535becb7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.7548003

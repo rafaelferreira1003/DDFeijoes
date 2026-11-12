@@ -26,8 +26,12 @@ public class atirar : MonoBehaviour
     public AudioSource audioSource;
     public Transform ponto_de_tiro;
     public GameObject canvas_tiro;
+    private SpriteRenderer recarga_sprite;
+    public GameObject recarga_sprite_obj;
     void Start()
     {
+        recarga_sprite_obj = GameObject.Find("simb_recargp1");
+        recarga_sprite = recarga_sprite_obj.GetComponent<SpriteRenderer>();
         try
         {
             tiro = GameObject.Find("tirop1");
@@ -92,6 +96,7 @@ public class atirar : MonoBehaviour
                 recarga = false;
                 aconteceu = true;
                 tempo = 0.0f;
+                recarga_sprite.enabled = true;
             }
 
 
@@ -100,6 +105,7 @@ public class atirar : MonoBehaviour
                 tempo += Time.deltaTime;
                 if (tempo >= tempoParaRecarga)
                 {
+                    recarga_sprite.enabled = false;
                     try
                     {
                         tempo = 0.0f;
