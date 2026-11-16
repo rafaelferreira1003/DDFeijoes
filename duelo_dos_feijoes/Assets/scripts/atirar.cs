@@ -37,6 +37,7 @@ public class atirar : MonoBehaviour
         else
         {
             canvas_tiro = GameObject.Find("Canvas_estat");
+            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
             municaoText.text = municao.ToString();
         }
     }

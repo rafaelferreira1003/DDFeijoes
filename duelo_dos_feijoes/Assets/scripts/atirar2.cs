@@ -1,5 +1,6 @@
 
 using JetBrains.Annotations;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -38,7 +39,7 @@ public class atirar2 : MonoBehaviour
         else
         {
             canvas_tiro = GameObject.Find("Canvas_estat");
-    
+            municaoText = GameObject.Find("Canvas_estat/muniçãop2").GetComponent<TMP_Text>();
             municaoText.text = municao.ToString();
         }
 
