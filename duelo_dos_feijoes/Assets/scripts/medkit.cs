@@ -12,13 +12,13 @@ public class medkit : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && vida.GetComponent<vida>().player1life < 5)
         {
             vida.GetComponent<vida>().player1life = regeneração;
             vida.GetComponent<vida>().UpdateVidaUI();
             Destroy(gameObject);
         }
-        if (other.CompareTag("player2"))
+        if (other.CompareTag("player2") && vida.GetComponent<vida>().player2life < 5)
             {
              vida.GetComponent<vida>().player2life = regeneração;
              vida.GetComponent<vida>().UpdateVidaUI();
