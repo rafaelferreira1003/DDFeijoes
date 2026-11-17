@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -36,23 +37,26 @@ public class atirar : MonoBehaviour
         }
         else
         {
-            canvas_tiro = GameObject.Find("Canvas_estat");
-            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
+           recarga_sprite_obj = GameObject.Find("simb_recargp1");
+           recarga_sprite = recarga_sprite_obj.GetComponent<SpriteRenderer>();
+            municaoText = GameObject.Find("Canvas_estat/muniçãop1").GetComponent<TMP_Text>();
             municaoText.text = municao.ToString();
         }
     }
     void Start()
     {
-        recarga_sprite_obj = GameObject.Find("simb_recargp1");
-        recarga_sprite = recarga_sprite_obj.GetComponent<SpriteRenderer>();
+       
+        
+        
         try
         {
-            canvas_tiro = GameObject.Find("Canvas_estat");
+            if (SceneManager.GetActiveScene().name != ("Tutorial"))
+            {
+            
             tiro = GameObject.Find("tirop1");
             municaoText.text = municao.ToString();
             audioSource = GetComponent<AudioSource>();
-            canvas_tiro = GameObject.Find("Canvas_estat");
-            municaoText = canvas_tiro.transform.Find("muniçãop1").GetComponent<TMPro.TMP_Text>();
+            }
         }
         catch
         {

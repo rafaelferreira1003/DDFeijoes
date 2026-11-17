@@ -37,7 +37,8 @@ public class atirar2 : MonoBehaviour
             municao = 99999999999999999999.0f;
         }
         else
-        {
+        {   recarga_sprite_obj = GameObject.Find("simb_recargap2");
+            recarga_sprite = recarga_sprite_obj.GetComponent<SpriteRenderer>();
             canvas_tiro = GameObject.Find("Canvas_estat");
             municaoText = GameObject.Find("Canvas_estat/muniçãop2").GetComponent<TMP_Text>();
             municaoText.text = municao.ToString();
@@ -46,8 +47,7 @@ public class atirar2 : MonoBehaviour
     }
     void Start()
     {
-        recarga_sprite_obj = GameObject.Find("simb_recargap2");
-        recarga_sprite = recarga_sprite_obj.GetComponent<SpriteRenderer>();
+       
         try
         {
             canvas_tiro = GameObject.Find("Canvas_estat");
