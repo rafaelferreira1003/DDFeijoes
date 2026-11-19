@@ -44,7 +44,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 8cdaca25c0d98fb4c92b2e762cdc0a1d, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3e0a32b9c3b667b4a98994fd979c3b9c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -144,6 +144,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: "Assembly-CSharp::tocar_m\xFAsicas"
   audioSource: {fileID: 8587273849236572111}
   som_de_vitoria: {fileID: 8300000, guid: 70f7ba532d4c9164394c76ecc5a3c352, type: 3}
-  "m\xFAsica_do_jogo": {fileID: 8300000, guid: 8cdaca25c0d98fb4c92b2e762cdc0a1d, type: 3}
+  "m\xFAsica_do_jogo": {fileID: 8300000, guid: 3e0a32b9c3b667b4a98994fd979c3b9c, type: 3}
   somTocado: 0
   comecar_musica: 0
