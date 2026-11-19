@@ -16,6 +16,7 @@ TagManager:
   - pontos_p2
   - nao_apagar
   - som
+  - Som_menu
   layers:
   - Default
   - TransparentFX
