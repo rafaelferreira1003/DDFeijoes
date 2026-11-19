@@ -33,7 +33,7 @@ public class tocar_músicas : MonoBehaviour
 
             
        
-        if (SceneManager.GetActiveScene().name == "menu" || SceneManager.GetActiveScene().name == "creditos")
+        if (SceneManager.GetActiveScene().name == "menu" || SceneManager.GetActiveScene().name == "creditos" || SceneManager.GetActiveScene().name == "Tutorial")
         {
             somTocado = false;
             audioSource.Stop();
