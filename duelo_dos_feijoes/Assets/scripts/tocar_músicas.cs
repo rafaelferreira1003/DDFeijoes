@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -42,7 +43,7 @@ public class tocar_músicas : MonoBehaviour
 
             if (vida.player1morto == true && tocar_som_derrota == false || vida.player2morto == true && tocar_som_derrota == false)
             {
-                audioSource.PlayOneShot(som_de_derrota);
+               StartCoroutine(TocarSomDerrota());
                 tocar_som_derrota = true;
             }
         }
@@ -63,5 +64,14 @@ public class tocar_músicas : MonoBehaviour
 
         }
 
+    }
+    public IEnumerator TocarSomDerrota()
+    {
+        audioSource.PlayOneShot(som_de_derrota);
+        yield return new WaitForSeconds(som_de_derrota.length);
+        {
+            tocar_som_derrota = false;
+        }
+            
     }
 }
