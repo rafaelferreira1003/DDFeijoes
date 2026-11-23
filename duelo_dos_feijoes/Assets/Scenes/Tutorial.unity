@@ -1236,7 +1236,7 @@ GameObject:
   - component: {fileID: 210864313}
   - component: {fileID: 210864312}
   m_Layer: 0
-  m_Name: imagem
+  m_Name: imagemp2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2792,6 +2792,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cartucho
   quantidade: 5
+  imagemp1: {fileID: 0}
+  imagemp2: {fileID: 0}
+  imagemobj: {fileID: 0}
 --- !u!61 &554020652
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5086,6 +5089,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::medkit
   vida: {fileID: 0}
   "regenera\xE7\xE3o": 5
+  imagemp1: {fileID: 0}
+  imagemp2: {fileID: 0}
+  imagemobj: {fileID: 0}
+  estar_no_tutorial: 0
 --- !u!61 &1121391552
 BoxCollider2D:
   m_ObjectHideFlags: 0
