@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class medkit : MonoBehaviour
 {
@@ -8,9 +9,11 @@ public class medkit : MonoBehaviour
     public SpriteRenderer imagemp1;
     public SpriteRenderer imagemp2;
     public SpriteRenderer imagemobj;
+    public bool estar_no_tutorial;
     void Start()
-    {  imagemp1 = GameObject.Find("perso1/imagem").GetComponent<SpriteRenderer>();
-        imagemp2 = GameObject.Find("perso2/imagemp2").GetComponent<SpriteRenderer>();
+    {
+            imagemp1 = GameObject.Find("perso1/imagem").GetComponent<SpriteRenderer>();
+            imagemp2 = GameObject.Find("perso2/imagemp2").GetComponent<SpriteRenderer>();
         imagemobj = GetComponent<SpriteRenderer>();
      vida = GameObject.Find("vida");
     }

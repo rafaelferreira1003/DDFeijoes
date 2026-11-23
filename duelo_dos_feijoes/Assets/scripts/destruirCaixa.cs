@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.SceneManagement;
 
 public class destruirCaixa : MonoBehaviour
 {
@@ -22,18 +21,18 @@ public class destruirCaixa : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Colidiu com: " + other.gameObject.name);
-        if (other.CompareTag ("tiro"))
+        if (other.CompareTag("tiro"))
         {
             Destroy(other.gameObject);
             levarDano();
         }
-       
+
     }
     public void levarDano()
     {
         vida = vida - dano;
 
-        if (vida < 0 && SceneManager.GetActiveScene().name != "Tutorial")
+        if (vida < 0)
         {
             GetComponent<Animator>().SetBool("destruir_caixa", true);
             GetComponent<BoxCollider2D>().enabled = false;
@@ -43,16 +42,16 @@ public class destruirCaixa : MonoBehaviour
             if (chance > 75)
             {
                 int tipo_item = Random.Range(0, 2);
-                if ( tipo_item == 0)
+                if (tipo_item == 0)
                 {
-                Instantiate(medkit, transform.position, Quaternion.identity);
+                    Instantiate(medkit, transform.position, Quaternion.identity);
                 }
-                else if ( tipo_item == 1)
+                else if (tipo_item == 1)
                 {
-                Instantiate(cartucho, transform.position, Quaternion.identity);
+                    Instantiate(cartucho, transform.position, Quaternion.identity);
                 }
             }
-            
+
         }
 
         else

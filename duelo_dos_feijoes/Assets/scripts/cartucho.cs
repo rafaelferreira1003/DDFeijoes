@@ -11,8 +11,11 @@ public class cartucho : MonoBehaviour
     public SpriteRenderer imagemobj;
     void Start()
     {
-        imagemp1 = GameObject.Find("perso1/imagem").GetComponent<SpriteRenderer>();
+       
+           imagemp1 = GameObject.Find("perso1/imagem").GetComponent<SpriteRenderer>();
         imagemp2 = GameObject.Find("perso2/imagemp2").GetComponent<SpriteRenderer>();
+        
+       
         imagemobj = GetComponent<SpriteRenderer>();
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -40,7 +43,7 @@ public class cartucho : MonoBehaviour
 
     public IEnumerator DestruirObjeto(string player)
     {
-        if (player == "Player")
+        if (player == "Player" )
         {
             imagemp1.color = Color.orange;
         }
@@ -48,6 +51,7 @@ public class cartucho : MonoBehaviour
         {
             imagemp2.color = Color.orange;
         }
+      
         yield return new WaitForSeconds(0.3f);
         {
             imagemp1.color = Color.white;
