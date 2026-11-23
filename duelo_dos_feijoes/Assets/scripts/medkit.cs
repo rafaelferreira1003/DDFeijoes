@@ -41,7 +41,7 @@ public class medkit : MonoBehaviour
         {
             imagemp1.color = Color.greenYellow;
         }
-        else if (player == "player2")
+        else if (player == "Player2")
         {
             imagemp2.color = Color.greenYellow;
         }
