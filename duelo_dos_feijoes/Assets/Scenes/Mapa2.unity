@@ -5268,7 +5268,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8bf6da991b8d74941b51deba1f3dfcb5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.498
   m_Pitch: 1
   Loop: 0
@@ -12661,7 +12661,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8bf6da991b8d74941b51deba1f3dfcb5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.498
   m_Pitch: 1
   Loop: 0
@@ -18238,7 +18238,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8bf6da991b8d74941b51deba1f3dfcb5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.498
   m_Pitch: 1
   Loop: 0
@@ -18872,6 +18872,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::medkit
   vida: {fileID: 0}
   "regenera\xE7\xE3o": 5
+  imagemp1: {fileID: 0}
+  imagemp2: {fileID: 0}
+  imagemobj: {fileID: 0}
+  estar_no_tutorial: 0
 --- !u!61 &1450622631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19354,7 +19358,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8bf6da991b8d74941b51deba1f3dfcb5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.498
   m_Pitch: 1
   Loop: 0
@@ -19631,7 +19635,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8bf6da991b8d74941b51deba1f3dfcb5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.498
   m_Pitch: 1
   Loop: 0
@@ -21977,7 +21981,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8bf6da991b8d74941b51deba1f3dfcb5, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.498
   m_Pitch: 1
   Loop: 0
@@ -22094,6 +22098,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cartucho
   quantidade: 5
+  imagemp1: {fileID: 0}
+  imagemp2: {fileID: 0}
+  imagemobj: {fileID: 0}
 --- !u!61 &1951549788
 BoxCollider2D:
   m_ObjectHideFlags: 0
