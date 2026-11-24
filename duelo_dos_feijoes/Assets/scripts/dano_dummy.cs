@@ -6,8 +6,13 @@ public class dano_dummy : MonoBehaviour
 {
     public int dano = 1;
     public GameObject vida;
+    public SpriteRenderer imagem;
 
-
+    void Start()
+    {
+        vida = GameObject.Find("vida");
+        imagem = GetComponent<SpriteRenderer>();
+    }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -22,10 +27,15 @@ public class dano_dummy : MonoBehaviour
             vida.GetComponent<vida>().UpdateVidaUI();
             vida.GetComponent<vida>().animacao_danoP2 = true;
         }
-        else if (collision.gameObject.CompareTag("Tiro"))
+        else { }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("tiro"))
         {
-           Parar();
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
+            StartCoroutine(Parar());
         }
     }
 
@@ -33,7 +43,10 @@ public class dano_dummy : MonoBehaviour
     {
         print("Parar");
         GetComponent<Dummy>().velocidade = 0;
+        imagem.color = Color.antiqueWhite;
         yield return new WaitForSeconds(0.5f);
-        { GetComponent<Dummy>().velocidade = 3; }
+        { GetComponent<Dummy>().velocidade = 3; 
+            imagem.color = Color.white;
+        }
     }
 }
