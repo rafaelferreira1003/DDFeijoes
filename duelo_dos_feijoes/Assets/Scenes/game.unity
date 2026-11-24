@@ -775,6 +775,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cartucho
   quantidade: 5
+  imagemp1: {fileID: 0}
+  imagemp2: {fileID: 0}
+  imagemobj: {fileID: 0}
 --- !u!61 &51871133
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6624,6 +6627,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::medkit
   vida: {fileID: 897693382}
   "regenera\xE7\xE3o": 5
+  imagemp1: {fileID: 0}
+  imagemp2: {fileID: 0}
+  imagemobj: {fileID: 0}
+  estar_no_tutorial: 0
 --- !u!1 &1018565943
 GameObject:
   m_ObjectHideFlags: 0

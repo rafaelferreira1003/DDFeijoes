@@ -1,12 +1,17 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class arbusto_mov : MonoBehaviour
 {
     public int velocidade = 5;
     public GameObject vida;
+    public GameObject medkit;
+    public GameObject cartucho;
     void Start()
     {
         vida = GameObject.Find("vida");
+        medkit = GameObject.Find("medkit");
+        cartucho = GameObject.Find("cartucho");
     }
 
     // Update is called once per frame
@@ -35,9 +40,26 @@ public class arbusto_mov : MonoBehaviour
         if (collision.CompareTag("tiro"))
         {
             Destroy(gameObject);
-
+            levarDano();
         }
        
 
+    }
+
+    public void levarDano()
+    {
+            int chance = Random.Range(1, 101);
+            if (chance > 75)
+            {
+                int tipo_item = Random.Range(0, 2);
+                if (tipo_item == 0)
+                {
+                    Instantiate(medkit, transform.position, Quaternion.identity);
+                }
+                else if (tipo_item == 1)
+                {
+                    Instantiate(cartucho, transform.position, Quaternion.identity);
+                }
+            }
     }
 }
