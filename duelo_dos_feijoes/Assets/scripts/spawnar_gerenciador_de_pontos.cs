@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class spawnar_gerenciador_de_pontos : MonoBehaviour
@@ -31,6 +32,17 @@ public class spawnar_gerenciador_de_pontos : MonoBehaviour
    
     void Update()
     {
-        
+        //while (bad = true)
+       // {
+           // if (0 > 3)
+           // {
+              //  helloworld("print");
+           // }
+      //  }
+      //  else { 
+      //      helloword("debug.lag");
+      //  }
+
+
     }
 }
