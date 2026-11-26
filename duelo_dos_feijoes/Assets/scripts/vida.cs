@@ -107,9 +107,16 @@ public class vida : MonoBehaviour
     {
         try
         {
-            vidap1Text.text = player1life.ToString();
-            vidap2Text.text = player2life.ToString();
+            if (player1life > -1)
+            {
+                vidap1Text.text = player1life.ToString();
+            }
+            if (player2life > -1)
+            {
+                vidap2Text.text = player2life.ToString();
+            }
             mudar_cena();
+
         }
         catch
         { }
