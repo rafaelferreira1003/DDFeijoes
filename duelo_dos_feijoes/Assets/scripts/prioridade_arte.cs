@@ -12,6 +12,7 @@ public class prioridade_arte : MonoBehaviour
         {
            PlayerPrefs.SetInt("ocorrencia_de_prioridade", 0);
         }
+
     }
 
 
