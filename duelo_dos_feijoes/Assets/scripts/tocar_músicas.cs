@@ -43,8 +43,13 @@ public class tocar_músicas : MonoBehaviour
 
             if (vida.player1morto == true && tocar_som_derrota == false || vida.player2morto == true && tocar_som_derrota == false)
             {
-               StartCoroutine(TocarSomDerrota());
+             
+                audioSource.PlayOneShot(som_de_derrota);
                 tocar_som_derrota = true;
+            }
+            else if (vida.player1morto == false && vida.player2morto == false)
+            {
+                tocar_som_derrota = false;
             }
         }
             
@@ -65,13 +70,5 @@ public class tocar_músicas : MonoBehaviour
         }
 
     }
-    public IEnumerator TocarSomDerrota()
-    {
-        audioSource.PlayOneShot(som_de_derrota);
-        yield return new WaitForSeconds(som_de_derrota.length);
-        {
-            tocar_som_derrota = false;
-        }
-            
-    }
+    
 }
